@@ -26,7 +26,7 @@ function nextQuestion() {
         let n = Math.floor(Math.random() * 40);
         currentQuestion = tema1[n];
     } else if(tema === "2") {
-        let n = Math.floor(Math.random() * 50);
+        let n = Math.floor(Math.random() * 80);
         currentQuestion = tema2[n];
     } else if(tema === "3") {
         let n = Math.floor(Math.random() * 25);

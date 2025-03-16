@@ -31,12 +31,13 @@ h1{
 }
 
 #qna{
-    text-align: center;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
 }
 
-table{
-    justify-content: center;
-    display: flex;
+#question{
+    text-align: center;
 }
 
 #result h3{
@@ -55,7 +56,7 @@ table{
 }
 
 footer{
-    margin-top: 450px;
+    margin-top: 400px;
 }
 
 
