@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hola</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div id="title">
+        <h1>Operating Systems Practice Test</h1>
+    </div>
+    <div id="temas">
+        <div id="tema1">
+            <input type="checkbox" name="tema" id="tema1">
+            <label id="labelTema1" for="tema1">Tema 1</label>
+        </div>
+        <div id="tema2">
+            <input type="checkbox" name="tema" id="tema2">
+            <label id="labelTema2" for="tema2">Tema 2</label>
+        </div>
+        <div id="tema3">
+            <input type="checkbox" name="tema" id="tema3">
+            <label id="labelTema3" for="tema3">Tema 3</label>
+        </div>
+        <div id="tema4">
+            <input type="checkbox" name="tema" id="tema4">
+            <label id="labelTema4" for="tema4">Tema 4</label>
+        </div>
+        <div id="tema5">
+            <input type="checkbox" name="tema" id="tema5">
+            <label id="labelTema5" for="tema5">Tema 5</label>
+        </div>
+        <div id="tema6">
+            <input type="checkbox" name="tema" id="tema6">
+            <label id="labelTema6" for="tema6">Tema 6</label>
+        </div>
+        <div id="tema7">
+            <input type="checkbox" name="tema" id="tema7">
+            <label id="labelTema7" for="tema7">Tema 7</label>
+        </div>
+    </div>
+    <div id="qna">
+        <div id="question">
+            <h2 id="questionText">Question</h2>
+        </div>
+        <div id="answers">
+            <div id="answer1div">
+                <input type="radio" name="answer" id="answer1">
+                <label id="label1" for="answer1">Answer 1</label>
+            </div>
+            <div id="answer2div">
+                <input type="radio" name="answer" id="answer2">
+                <label id="label2" for="answer2">Answer 2</label>
+            </div>
+            <div id="answer3div">
+                <input type="radio" name="answer" id="answer3">
+                <label id="label3" for="answer3">Answer 3</label>
+            </div>
+            <div id="answer4div">
+                <input type="radio" name="answer" id="answer4">
+                <label id="label4" for="answer4">Answer 4</label>
+            </div>
+        </div>
+    </div>
+    <div id="result">
+        <h3 id="correct">Correct answer!</h3>
+        <h3 id="wrong">Wrong answer!</h3>
+    </div>
+    <div id="button">
+        <button id="check" onclick="answer()">Submit</button>
+        <button id="next" onclick="nextQuestion()">Next Question</button>
+        <button id="unselect" onclick="unselect()">Uncheck an answer</button>
+    </div>
+    <footer>
+        <p>Disclaimer: Since the teacher didn't give us the actual answers, some questions may have the wrong answers</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,2977 @@
+{
+    "tema1": [
+        {
+            "id": 1,
+            "question": "In a computer system, what is the interface that defines a standard for binary portability across operating systems (i.e., system call interface), allowing programs to be executed in different operating systems that implement it?",
+            "answers": [
+                {"id": 1, "answer": "ISA", "correct": false},
+                {"id": 2, "answer": "ABI", "correct": true},
+                {"id": 3, "answer": "API", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 2,
+            "question": "What mode does the operating system run in to be able to execute privileged CPU instructions and access all memory areas?",
+            "answers": [
+                {"id": 1, "answer": "User mode", "correct": false},
+                {"id": 2, "answer": "Kernel mode", "correct": true},
+                {"id": 3, "answer": "Interrupt mode", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 3,
+            "question": "In a time-sharing operating system, what is the name of the technique in which a system clock generates interrupts at a constant rate to let the operating system gain control of the CPU and decide which user to assign the CPU to next?",
+            "answers": [
+                {"id": 1, "answer": "Time slicing", "correct": true},
+                {"id": 2, "answer": "Time sharing", "correct": false},
+                {"id": 3, "answer": "Time scheduling", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 4,
+            "question": "What is the name of the first program that is run by a computer after the BIOS (Basic Input/Output System) is executed to check the hardware?",
+            "answers": [
+                {"id": 1, "answer": "Initializer", "correct": false},
+                {"id": 2, "answer": "Bootloader", "correct": true},
+                {"id": 3, "answer": "Kernel", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 5,
+            "question": "What is an operating system?",
+            "answers": [
+                {"id": 1, "answer": "A collection of programs that manages hardware resources", "correct": false},
+                {"id": 2, "answer": "A system service provider to the application programs", "correct": false},
+                {"id": 3, "answer": "An interface between the hardware and application programs", "correct": false},
+                {"id": 4, "answer": "All of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 6,
+            "question": "To access the services of an operating system, the interface is provided by...",
+            "answers": [
+                {"id": 1, "answer": "System calls", "correct": true},
+                {"id": 2, "answer": "Assembly instructions", "correct": false},
+                {"id": 3, "answer": "Program stack", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Which one of the following statements is NOT true?",
+            "answers": [
+                {"id": 1, "answer": "The kernel is the program that constitutes the central core of the operating system", "correct": false},
+                {"id": 2, "answer": "The kernel is the first part of an operating system to load into memory during booting", "correct": false},
+                {"id": 3, "answer": "The kernel is made of various modules which can be loaded dynamically when running the operating system", "correct": false},
+                {"id": 4, "answer": "The kernel remains in the memory during the entire computer session", "correct": true}
+            ]
+        },
+        {
+            "id": 8,
+            "question": "What is the main function of the CLI (Command Line Interface)?",
+            "answers": [
+                {"id": 1, "answer": "To get and execute the next user-specified command", "correct": true},
+                {"id": 2, "answer": "To provide the interface between the API and application program", "correct": false},
+                {"id": 3, "answer": "To handle the files in operating system", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Operating systems that only allow the execution of one program simultaneously are called...",
+            "answers": [
+                {"id": 1, "answer": "Monoprogrammed", "correct": true},
+                {"id": 2, "answer": "Monocore", "correct": false},
+                {"id": 3, "answer": "Simple programming", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 10,
+            "question": "What happens when the processor executes an instruction that divides by 0?",
+            "answers": [
+                {"id": 1, "answer": "An interrupt is generated", "correct": true},
+                {"id": 2, "answer": "A process is created", "correct": false},
+                {"id": 3, "answer": "A system call is executed", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 11,
+            "question": "In a computer system with a single CPU, which statement is true?",
+            "answers": [
+                {"id": 1, "answer": "Concurrency cannot be achieved in the execution of processes", "correct": false},
+                {"id": 2, "answer": "Concurrency can be achieved by taking advantage of the moments when processes are not using the processor to execute other processes that are ready to do so", "correct": true},
+                {"id": 3, "answer": "Concurrency is obtained by executing processes simultaneously on the same processor", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 12,
+            "question": "In a computer system with more than one CPU, which statement is true?",
+            "answers": [
+                {"id": 1, "answer": "No type of concurrency can be achieved", "correct": false},
+                {"id": 2, "answer": "It can be made to appear to the user that there are many processes running at the same time, but in reality they are alternating between them", "correct": false},
+                {"id": 3, "answer": "Concurrency is achieved by running the processes simultaneously on different processors", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 13,
+            "question": "In a computer system with more than one CPU, which statement is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "Processes cannot be executed simultaneously on different processors", "correct": false},
+                {"id": 2, "answer": "The maximum concurrency that can be achieved is equal to the number of CPUs", "correct": true},
+                {"id": 3, "answer": "There will only be one process in real simultaneous execution, but you can take advantage of the moments when a process is waiting to execute another", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 14,
+            "question": "A multiprocessor system is one that:",
+            "answers": [
+                {"id": 1, "answer": "Has two or more processing units in the system", "correct": true},
+                {"id": 2, "answer": "Has two or more memory units in the system", "correct": false},
+                {"id": 3, "answer": "Has two or more disk drives in the system", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Operating systems that can only execute one program at a time are called:",
+            "answers": [
+                {"id": 1, "answer": "Single-programming operating systems", "correct": false},
+                {"id": 2, "answer": "Single-core operating systems", "correct": false},
+                {"id": 3, "answer": "Mono-programmed operating systems", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 16,
+            "question": "In a computer system that has a single CPU and runs a multi-programmed operating system, which of the following sentences is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "Only a single program can be loaded in the main memory at any given time", "correct": false},
+                {"id": 2, "answer": "Multiple programs can be loaded in the main memory at the same time, but only a single process is allowed to execute at any given time", "correct": true},
+                {"id": 3, "answer": "Multiple programs can be loaded in main memory at the same time, and multiple processes are allowed to execute at any given time", "correct": false},
+                {"id": 4, "answer": "Multiple programs can be loaded in the main memory at the same time, but only one process can be in the ready queue at any given time", "correct": false}
+            ]
+        },
+        {
+            "id": 17,
+            "question": "The objective of a multi-programmed operating system is:",
+            "answers": [
+                {"id": 1, "answer": "To keep the I/O devices busy as much of the time as possible", "correct": false},
+                {"id": 2, "answer": "To minimize overall system memory usage", "correct": false},
+                {"id": 3, "answer": "To keep the CPU busy as little time as possible", "correct": false},
+                {"id": 4, "answer": "All of the above are false", "correct": true}
+            ]
+        },
+        {
+            "id": 18,
+            "question": "In a computer system with two levels of execution, when we are executing code as the operating system the CPU is running in:",
+            "answers": [
+                {"id": 1, "answer": "User mode", "correct": false},
+                {"id": 2, "answer": "Privileged mode", "correct": true},
+                {"id": 3, "answer": "Non-privileged mode", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 19,
+            "question": "In a computer system, what elements connect the processor, main memory, and I/O devices together?",
+            "answers": [
+                {"id": 1, "answer": "Bus", "correct": true},
+                {"id": 2, "answer": "Cache", "correct": false},
+                {"id": 3, "answer": "Registers", "correct": false},
+                {"id": 4, "answer": "Stack", "correct": false}
+            ]
+        },
+        {
+            "id": 20,
+            "question": "In which stage does the processor retrieve an instruction from the main memory (i.e., RAM)?",
+            "answers": [
+                {"id": 1, "answer": "Fetch", "correct": true},
+                {"id": 2, "answer": "Decode", "correct": false},
+                {"id": 3, "answer": "Execute", "correct": false},
+                {"id": 4, "answer": "Write Back", "correct": false}
+            ]
+        },
+        {
+            "id": 21,
+            "question": "What is the primary purpose of using interrupts in a computer system?",
+            "answers": [
+                {"id": 1, "answer": "To execute instructions faster", "correct": false},
+                {"id": 2, "answer": "To increase processing power", "correct": false},
+                {"id": 3, "answer": "To handle external events without stopping normal program execution", "correct": true},
+                {"id": 4, "answer": "To improve memory management", "correct": false}
+            ]
+        },
+        {
+            "id": 22,
+            "question": "Which is NOT a key function of an operating system?",
+            "answers": [
+                {"id": 1, "answer": "Managing system resources", "correct": false},
+                {"id": 2, "answer": "Providing a user interface", "correct": false},
+                {"id": 3, "answer": "Enabling multiple processes to run concurrently", "correct": false},
+                {"id": 4, "answer": "Facilitating communication between hardware and software", "correct": true}
+            ]
+        },
+        {
+            "id": 23,
+            "question": "What was the primary goal of early batch operating systems?",
+            "answers": [
+                {"id": 1, "answer": "Real-time processing", "correct": false},
+                {"id": 2, "answer": "Time-sharing", "correct": false},
+                {"id": 3, "answer": "Job prioritization", "correct": true},
+                {"id": 4, "answer": "Multiprogramming support", "correct": false}
+            ]
+        },
+        {
+            "id": 24,
+            "question": "Which issue arises due to the introduction of computers with multiple processors in the design of operating systems?",
+            "answers": [
+                {"id": 1, "answer": "Memory isolation", "correct": false},
+                {"id": 2, "answer": "Virtual address translation", "correct": false},
+                {"id": 3, "answer": "Process synchronization", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 25,
+            "question": "What is the primary difference between a shell script and an executable file in UNIX?",
+            "answers": [
+                {"id": 1, "answer": "Executable files have extensions, while shell scripts do not", "correct": false},
+                {"id": 2, "answer": "Shell scripts run in user mode, while executables run in kernel mode", "correct": false},
+                {"id": 3, "answer": "Shell scripts are interpreted, while executables are compiled", "correct": true},
+                {"id": 4, "answer": "Executables use more memory than shell scripts", "correct": false}
+            ]
+        },
+        {
+            "id": 26,
+            "question": "In a computer system, which mechanism is used to protect user processes from unauthorized access by other processes?",
+            "answers": [
+                {"id": 1, "answer": "Interrupt handling", "correct": false},
+                {"id": 2, "answer": "Memory isolation", "correct": true},
+                {"id": 3, "answer": "CPU scheduling", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 27,
+            "question": "What is the primary purpose of the hardware timer interrupt when designing an operating system?",
+            "answers": [
+                {"id": 1, "answer": "To manage virtual memory", "correct": false},
+                {"id": 2, "answer": "To handle I/O requests", "correct": false},
+                {"id": 3, "answer": "To implement time-sharing", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 28,
+            "question": "Which CPU mode allows accessing hardware resources directly and executing system calls?",
+            "answers": [
+                {"id": 1, "answer": "User mode", "correct": false},
+                {"id": 2, "answer": "Kernel mode", "correct": true},
+                {"id": 3, "answer": "Special mode", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 29,
+            "question": "What is the primary difference between a monolithic kernel and a microkernel?",
+            "answers": [
+                {"id": 1, "answer": "Monolithic kernels run faster than microkernels", "correct": false},
+                {"id": 2, "answer": "Monolithic kernels are easier to maintain than microkernels", "correct": false},
+                {"id": 3, "answer": "Monolithic kernels handle I/O requests asynchronously, while microkernels handle them synchronously", "correct": false},
+                {"id": 4, "answer": "Monolithic kernels have a single and large address space, while microkernels have multiple and smaller address spaces", "correct": true}
+            ]
+        },
+        {
+            "id": 30,
+            "question": "What of the following is NOT a benefit of using dynamic linking and loading over static linking?",
+            "answers": [
+                {"id": 1, "answer": "It reduces memory footprint", "correct": false},
+                {"id": 2, "answer": "It improves execution speed", "correct": true},
+                {"id": 3, "answer": "It allows shared libraries to be updated without recompiling the application", "correct": false},
+                {"id": 4, "answer": "It simplifies binary distribution", "correct": false}
+            ]
+        },
+        {
+            "id": 31,
+            "question": "What is the primary difference between signals and system calls in UNIX-like operating systems?",
+            "answers": [
+                {"id": 1, "answer": "Signals are generated by the kernel, while system calls are initiated by user programs", "correct": false},
+                {"id": 2, "answer": "System calls are synchronous, while signals are asynchronous", "correct": true},
+                {"id": 3, "answer": "System calls require a context switch, while signals do not", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 32,
+            "question": "What is the term for the smallest unit of execution within an operating system?",
+            "answers": [
+                {"id": 1, "answer": "Thread", "correct": true},
+                {"id": 2, "answer": "Process", "correct": false},
+                {"id": 3, "answer": "Program", "correct": false},
+                {"id": 4, "answer": "Kernel module", "correct": false}
+            ]
+        },
+        {
+            "id": 33,
+            "question": "What is the role of a file system in an operating system?",
+            "answers": [
+                {"id": 1, "answer": "To manage CPU scheduling", "correct": false},
+                {"id": 2, "answer": "To handle I/O operations", "correct": false},
+                {"id": 3, "answer": "To manage storage and retrieval of data on devices", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 34,
+            "question": "What is the primary function of a disk scheduler in an operating system?",
+            "answers": [
+                {"id": 1, "answer": "To manage CPU time", "correct": false},
+                {"id": 2, "answer": "To optimize disk access patterns", "correct": true},
+                {"id": 3, "answer": "To handle file operations", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 35,
+            "question": "Which of the following is NOT a characteristic of a real-time operating system?",
+            "answers": [
+                {"id": 1, "answer": "High responsiveness", "correct": false},
+                {"id": 2, "answer": "Predictable behavior", "correct": false},
+                {"id": 3, "answer": "Memory protection", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 36,
+            "question": "What is a context switch in an operating system?",
+            "answers": [
+                {"id": 1, "answer": "The process of loading a program into memory", "correct": false},
+                {"id": 2, "answer": "The process of saving and restoring the state of a CPU", "correct": true},
+                {"id": 3, "answer": "The execution of a single instruction", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 37,
+            "question": "What is the primary goal of a batch operating system?",
+            "answers": [
+                {"id": 1, "answer": "To provide immediate response for interactive tasks", "correct": false},
+                {"id": 2, "answer": "To maximize CPU utilization by processing jobs in groups", "correct": true},
+                {"id": 3, "answer": "To support multiple users simultaneously", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 38,
+            "question": "What type of operating system is designed for applications that require high concurrency and low latency?",
+            "answers": [
+                {"id": 1, "answer": "Batch", "correct": false},
+                {"id": 2, "answer": "Time-sharing", "correct": false},
+                {"id": 3, "answer": "Real-time", "correct": true},
+                {"id": 4, "answer": "Multi-programmed", "correct": false}
+            ]
+        },
+        {
+            "id": 39,
+            "question": "What type of operating system is DOS (Disk Operating System) introduced by Microsoft to run in the first PCs (Personal Computers)?",
+            "answers": [
+                {"id": 1, "answer": "Multi-programmed, Multi-user", "correct": false},
+                {"id": 2, "answer": "Mono-programmed, Multi-user", "correct": false},
+                {"id": 3, "answer": "Multi-programmed, Mono-user", "correct": false},
+                {"id": 4, "answer": "Mono-programmed, Mono-user", "correct": true}
+            ]
+        },
+        {
+            "id": 40,
+            "question": "What is the main characteristic of a time-sharing operating system?",
+            "answers": [
+                {"id": 1, "answer": "Processes are executed sequentially", "correct": false},
+                {"id": 2, "answer": "Multiple users share CPU resources simultaneously", "correct": true},
+                {"id": 3, "answer": "Only one user can access the system at a time", "correct": false},
+                {"id": 4, "answer": "Processes run with high priority", "correct": false}
+            ]
+        }
+
+    ],
+    "tema2": [
+        {
+            "id": 1,
+            "question": "What are the main objectives of an operating system scheduler?",
+            "answers": [
+                {"id": 1, "answer": "Minimize process waiting time", "correct": false},
+                {"id": 2, "answer": "Maximize the use of the system processor", "correct": false},
+                {"id": 3, "answer": "Distribute system resources equitably", "correct": false},
+                {"id": 4, "answer": "All of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 2,
+            "question": "What is the primary function of a process scheduler?",
+            "answers": [
+                {"id": 1, "answer": "Allocate memory to processes", "correct": false},
+                {"id": 2, "answer": "Manage input/output devices", "correct": false},
+                {"id": 3, "answer": "Handle inter-process communication", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Which of the statements about process scheduling is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "If a process is suspended, it does not need a PCB", "correct": false},
+                {"id": 2, "answer": "It is not possible to suspend processes that are in blocked state", "correct": false},
+                {"id": 3, "answer": "A running process must go through each and every stage of the life cycle before it finishes", "correct": false},
+                {"id": 4, "answer": "All of the above statements are false", "correct": true}
+            ]
+        },
+        {
+            "id": 4,
+            "question": "What is the role of a dispatcher in process scheduling?",
+            "answers": [
+                {"id": 1, "answer": "To handle interrupts and system calls", "correct": false},
+                {"id": 2, "answer": "To manage the allocation of memory to processes", "correct": false},
+                {"id": 3, "answer": "To create new processes and allocate resources to them", "correct": false},
+                {"id": 4, "answer": "To select a process from the ready queue and load it onto the CPU for execution", "correct": true}
+            ]
+        },
+        {
+            "id": 5,
+            "question": "What element of the operating system is responsible to perform the context switch between the process that is currently being executed in the CPU and the process from the ready queue that the operating system has decided to execute next?",
+            "answers": [
+                {"id": 1, "answer": "Scheduler", "correct": true},
+                {"id": 2, "answer": "Compiler", "correct": false},
+                {"id": 3, "answer": "Linker", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 6,
+            "question": "What is meant by 'context switching' in the context of process scheduling?",
+            "answers": [
+                {"id": 1, "answer": "The termination of a process", "correct": false},
+                {"id": 2, "answer": "The allocation of memory to a new process", "correct": false},
+                {"id": 3, "answer": "The handling of an interrupt by the operating system", "correct": false},
+                {"id": 4, "answer": "The process of saving the state of one running process and loading the state of another process for execution", "correct": true}
+            ]
+        },
+        {
+            "id": 7,
+            "question": "What is the relationship between the scheduler and the dispatcher in process scheduling?",
+            "answers": [
+                {"id": 1, "answer": "The dispatcher handles interrupts, while the scheduler manages process priorities", "correct": false},
+                {"id": 2, "answer": "The scheduler selects processes for execution, while the dispatcher loads them onto the CPU", "correct": true},
+                {"id": 3, "answer": "The dispatcher selects processes for execution, while the scheduler manages their memory allocation", "correct": false},
+                {"id": 4, "answer": "The scheduler and dispatcher are interchangeable terms with no distinct roles", "correct": false}
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Why is context switching considered an overhead in operating systems?",
+            "answers": [
+                {"id": 1, "answer": "It complicates the implementation of scheduling algorithms, making them less efficient", "correct": false},
+                {"id": 2, "answer": "It increases the memory footprint of each process due to storing additional state information", "correct": false},
+                {"id": 3, "answer": "It requires time and resources to save and restore the states of processes, slowing down execution", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 9,
+            "question": "What is a key difference between preemptive and non-preemptive scheduling algorithms?",
+            "answers": [
+                {"id": 1, "answer": "Preemptive schedulers are more complex to implement than non-preemptive schedulers", "correct": false},
+                {"id": 2, "answer": "Preemptive scheduling is only used in real-time systems, while non-preemptive scheduling is suitable for general-purpose operating systems", "correct": false},
+                {"id": 3, "answer": "Preemptive schedulers can interrupt running processes, while non-preemptive schedulers only switch when a process voluntarily relinquishes the CPU", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 10,
+            "question": "In what scenarios would a context switch be necessary?",
+            "answers": [
+                {"id": 1, "answer": "When a new process is created by the operating system", "correct": false},
+                {"id": 2, "answer": "When a process completes execution and finishes", "correct": false},
+                {"id": 3, "answer": "When a process makes a system call and has to wait for the operating system to load the resources", "correct": false},
+                {"id": 4, "answer": "All of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 11,
+            "question": "Which of these factors does NOT directly influence the decision-making process of a process scheduler?",
+            "answers": [
+                {"id": 1, "answer": "Process priorities", "correct": false},
+                {"id": 2, "answer": "CPU burst times (estimated or real)", "correct": false},
+                {"id": 3, "answer": "The current state of each process (running, ready, blocked)", "correct": false},
+                {"id": 4, "answer": "The physical layout of memory in the computer system", "correct": true}
+            ]
+        },
+        {
+            "id": 12,
+            "question": "What is the main purpose of a Gantt Chart in process scheduling?",
+            "answers": [
+                {"id": 1, "answer": "To calculate CPU burst times", "correct": false},
+                {"id": 2, "answer": "To analyze memory allocation patterns", "correct": false},
+                {"id": 3, "answer": "To visually represent the execution timeline of processes", "correct": true},
+                {"id": 4, "answer": "To determine the optimal scheduling algorithm", "correct": false}
+            ]
+        },
+        {
+            "id": 13,
+            "question": "What is a convoy effect in process scheduling?",
+            "answers": [
+                {"id": 1, "answer": "When a process exceeds its allocated time quantum", "correct": false},
+                {"id": 2, "answer": "When multiple processes are waiting for the same resource", "correct": false},
+                {"id": 3, "answer": "When processes continuously switch between ready and running states", "correct": false},
+                {"id": 4, "answer": "When a slow process delays other processes behind it in a queue", "correct": true}
+            ]
+        },
+        {
+            "id": 14,
+            "question": "What does the 'Ready Queue' represent in process scheduling?",
+            "answers": [
+                {"id": 1, "answer": "The set of active processes currently running on different CPU cores", "correct": false},
+                {"id": 2, "answer": "A list of blocked processes waiting for resources to become available", "correct": false},
+                {"id": 3, "answer": "A collection of processes that are waiting to be executed by the CPU", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 15,
+            "question": "The system scheduler that is responsible for controlling the degree of multiprogramming of the system (i.e., the number of processes that can be running in the system) is called:",
+            "answers": [
+                {"id": 1, "answer": "Long-term (term) scheduler", "correct": true},
+                {"id": 2, "answer": "Mid-term (term) scheduler", "correct": false},
+                {"id": 3, "answer": "Short-term (term) scheduler", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 16,
+            "question": "In short-term and non-preemptive scheduling algorithms, which of the following sentences is TRUE:",
+            "answers": [
+                {"id": 1, "answer": "Context switching occurs whenever the system quantum ends", "correct": false},
+                {"id": 2, "answer": "Context switching occurs only when the process terminates", "correct": false},
+                {"id": 3, "answer": "Context switching occurs only when the process ends its CPU streak and enters an I/O streak", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 17,
+            "question": "When we have a processor scheduler that seeks to maximize system availability, what does it refer to?",
+            "answers": [
+                {"id": 1, "answer": "Priority processes will always be executed", "correct": false},
+                {"id": 2, "answer": "Non-priority processes will never be executed", "correct": false},
+                {"id": 3, "answer": "No process should wait indefinitely to have the processor", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 18,
+            "question": "Regarding the mid-term scheduler, which of the following statements is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "It handles processes that are in the ready queue to move them to execution", "correct": false},
+                {"id": 2, "answer": "It handles processes suspended in the main memory (i.e., RAM) to move them to the ready queue", "correct": false},
+                {"id": 3, "answer": "It handles processes suspended in secondary memory (i.e., disk) to move them to ready queue", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 19,
+            "question": "In the five-state process model, when a running process requests a system resource or when an I/O operation requires the process to wait, to which state does the process transition to?",
+            "answers": [
+                {"id": 1, "answer": "Ready", "correct": false},
+                {"id": 2, "answer": "Blocked", "correct": true},
+                {"id": 3, "answer": "Suspend", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 20,
+            "question": "Regarding process scheduling, which of the following statements is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "If a process is suspended, it does not need a PCB", "correct": false},
+                {"id": 2, "answer": "It is not possible to suspend processes that are in blocked state", "correct": false},
+                {"id": 3, "answer": "A running process must go through each and every stage of the life cycle before it finishes", "correct": false},
+                {"id": 4, "answer": "All of the above statements are false", "correct": true}
+            ]
+        },
+        {
+            "id": 21,
+            "question": "In what state is a process that is waiting for an input/output operation (i.e., reading a file from disk)?",
+            "answers": [
+                {"id": 1, "answer": "Ready", "correct": false},
+                {"id": 2, "answer": "Run", "correct": false},
+                {"id": 3, "answer": "Blocked", "correct": true},
+                {"id": 4, "answer": "Finish", "correct": false}
+            ]
+        },
+        {
+            "id": 22,
+            "question": "When a process terminates executing before its parent process does and is waiting for the parent to execute, we say that it is a...",
+            "answers": [
+                {"id": 1, "answer": "Orphan process", "correct": false},
+                {"id": 2, "answer": "Zombie process", "correct": true},
+                {"id": 3, "answer": "Child process", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 23,
+            "question": "If we have a process in Ready state, if we query its status after a quantum of execution time, the process can be in which of the following states?",
+            "answers": [
+                {"id": 1, "answer": "Run", "correct": false},
+                {"id": 2, "answer": "Blocked", "correct": false},
+                {"id": 3, "answer": "Ready", "correct": false},
+                {"id": 4, "answer": "All of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 24,
+            "question": "In the five-state process model, when a running process requests a system resource or requires to wait for an I/O operation, to which state does it transition to?",
+            "answers": [
+                {"id": 1, "answer": "Ready", "correct": false},
+                {"id": 2, "answer": "Blocked", "correct": true},
+                {"id": 3, "answer": "Suspend", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 25,
+            "question": "In the six-state process model, when a process suspended in the secondary memory (i.e., the process is swapped to disk) is activated (i.e., an event occurs that allows the process to execute), to which state does the process transition to?",
+            "answers": [
+                {"id": 1, "answer": "Ready", "correct": true},
+                {"id": 2, "answer": "Blocked", "correct": false},
+                {"id": 3, "answer": "Running", "correct": false},
+                {"id": 4, "answer": "Suspended", "correct": false}
+            ]
+        },
+        {
+            "id": 26,
+            "question": "What is the purpose of a Process Control Block (PCB)?",
+            "answers": [
+                {"id": 1, "answer": "To handle inter-process communication", "correct": false},
+                {"id": 2, "answer": "To manage the allocation of CPU time to processes", "correct": false},
+                {"id": 3, "answer": "To store all the information associated with a process, such as its state, priority, and memory allocation", "correct": true},
+                {"id": 4, "answer": "To perform system calls on behalf of processes", "correct": false}
+            ]
+        },
+        {
+            "id": 27,
+            "question": "What is a potential benefit of storing process state information in a PCB (Process Control Block)?",
+            "answers": [
+                {"id": 1, "answer": "Reduces the need for memory management", "correct": false},
+                {"id": 2, "answer": "Simplifies the implementation of scheduling algorithms", "correct": false},
+                {"id": 3, "answer": "Guarantees fairness among all running processes", "correct": false},
+                {"id": 4, "answer": "Enables efficient suspension and resumption of processes, allowing for multitasking", "correct": true}
+            ]
+        },
+        {
+            "id": 28,
+            "question": "What information does the PCB (Process Control Block) contain?",
+            "answers": [
+                {"id": 1, "answer": "Process state", "correct": false},
+                {"id": 2, "answer": "Processor registers", "correct": false},
+                {"id": 3, "answer": "File descriptors", "correct": false},
+                {"id": 4, "answer": "All of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 29,
+            "question": "What information is typically included in the 'process state' field within a PCB (Process Control Block)?",
+            "answers": [
+                {"id": 1, "answer": "The amount of CPU time allocated to the process", "correct": false},
+                {"id": 2, "answer": "The priority level of the process", "correct": false},
+                {"id": 3, "answer": "Whether the process is running, ready, blocked, or terminated", "correct": true},
+                {"id": 4, "answer": "The size of the process’s memory allocation", "correct": false}
+            ]
+        },
+        {
+            "id": 30,
+            "question": "Which of the following information is typically NOT stored within a Process Control Block (PCB)?",
+            "answers": [
+                {"id": 1, "answer": "Process identifier", "correct": false},
+                {"id": 2, "answer": "State of the process (i.e., running, ready, blocked)", "correct": false},
+                {"id": 3, "answer": "A pointer to the program image", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 31,
+            "question": "Why might a PCB include information about a process’s parent?",
+            "answers": [
+                {"id": 1, "answer": "To track the lineage of all processes in the system for debugging purposes", "correct": false},
+                {"id": 2, "answer": "To facilitate process hierarchies and resource management between related processes", "correct": true},
+                {"id": 3, "answer": "To prevent deadlocks by ensuring parent processes always terminate before their children", "correct": false},
+                {"id": 4, "answer": "To allow communication between parent and child processes using shared memory", "correct": false}
+            ]
+        },
+        {
+            "id": 32,
+            "question": "The operating system scheduler that allocates processor time among the different processes of the operating system in quantums of equal duration is called:",
+            "answers": [
+                {"id": 1, "answer": "FCFS (First Come First Served)", "correct": false},
+                {"id": 2, "answer": "RR (Round Robin)", "correct": true},
+                {"id": 3, "answer": "FS (Fair Served)", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 33,
+            "question": "Which scheduling algorithm favors shorter jobs by giving them priority?",
+            "answers": [
+                {"id": 1, "answer": "Round Robin (RR)", "correct": false},
+                {"id": 2, "answer": "Shortest Job First (SJF)", "correct": true},
+                {"id": 3, "answer": "First Come, First Served (FCFS)", "correct": false},
+                {"id": 4, "answer": "Priority Scheduling (PS)", "correct": false}
+            ]
+        },
+        {
+            "id": 34,
+            "question": "Which of the following is NOT a characteristic of a preemptive scheduling algorithm?",
+            "answers": [
+                {"id": 1, "answer": "Can interrupt a running process", "correct": false},
+                {"id": 2, "answer": "Aims to optimize CPU utilization", "correct": false},
+                {"id": 3, "answer": "Always results in shorter average waiting times", "correct": true},
+                {"id": 4, "answer": "Used when real-time responsiveness is crucial", "correct": false}
+            ]
+        },
+        {
+            "id": 35,
+            "question": "What problem can arise with the Priority Scheduling (PS) algorithm if not handled carefully?",
+            "answers": [
+                {"id": 1, "answer": "Starvation of low-priority processes", "correct": true},
+                {"id": 2, "answer": "Indefinite postponement of high-priority processes", "correct": false},
+                {"id": 3, "answer": "Reduced CPU utilization", "correct": false},
+                {"id": 4, "answer": "Increased context switching overhead", "correct": false}
+            ]
+        },
+        {
+            "id": 36,
+            "question": "In a multilevel queue scheduling system, what typically determines the priority level of a process?",
+            "answers": [
+                {"id": 1, "answer": "Process characteristics like type or importance", "correct": true},
+                {"id": 2, "answer": "The time spent waiting in the ready queue", "correct": false},
+                {"id": 3, "answer": "Random assignment upon arrival", "correct": false},
+                {"id": 4, "answer": "CPU burst time", "correct": false}
+            ]
+        },
+        {
+            "id": 37,
+            "question": "What is a potential disadvantage of using a very small time quantum in Round Robin (RR) scheduling?",
+            "answers": [
+                {"id": 1, "answer": "Lower CPU utilization", "correct": false},
+                {"id": 2, "answer": "Difficulty in implementing", "correct": false},
+                {"id": 3, "answer": "Unfairness towards short jobs", "correct": false},
+                {"id": 4, "answer": "Increased context switching overhead", "correct": true}
+            ]
+        },
+        {
+            "id": 38,
+            "question": "Which non-preemptive scheduling algorithm is known for its simplicity and fairness, but may lead to longer average waiting times?",
+            "answers": [
+                {"id": 1, "answer": "Round Robin (RR)", "correct": false},
+                {"id": 2, "answer": "Priority Scheduling (PS)", "correct": false},
+                {"id": 3, "answer": "Shortest Job First (SJF)", "correct": false},
+                {"id": 4, "answer": "First Come, First Served (FCFS)", "correct": true}
+            ]
+        },
+        {
+            "id": 39,
+            "question": "Which preemptive scheduling algorithm is particularly well-suited for real-time systems where meeting deadlines is crucial?",
+            "answers": [
+                {"id": 1, "answer": "Earliest Deadline First (EDF)", "correct": true},
+                {"id": 2, "answer": "First Come, First Served (FCFS)", "correct": false},
+                {"id": 3, "answer": "Least Recently Used (LRU)", "correct": false},
+                {"id": 4, "answer": "Round Robin (RR)", "correct": false}
+            ]
+        },
+        {
+            "id": 40,
+            "question": "What is the main advantage of multi-level queue scheduling over single-level queue scheduling?",
+            "answers": [
+                {"id": 1, "answer": "It reduces context switching overhead", "correct": false},
+                {"id": 2, "answer": "It guarantees fairness for all processes", "correct": false},
+                {"id": 3, "answer": "It simplifies the implementation of scheduling algorithms", "correct": false},
+                {"id": 4, "answer": "It allows for better differentiation and prioritization of processes based on their characteristics", "correct": true}
+            ]
+        },
+        {
+            "id": 41,
+            "question": "Which of the following is a potential drawback of using a SJF (Shortest Job First) scheduling algorithm?",
+            "answers": [
+                {"id": 1, "answer": "It can lead to starvation of longer jobs", "correct": true},
+                {"id": 2, "answer": "It does not prioritize important tasks", "correct": false},
+                {"id": 3, "answer": "It is computationally expensive to implement", "correct": false},
+                {"id": 4, "answer": "It requires knowledge of the future CPU burst times of processes, which may not be readily available", "correct": false}
+            ]
+        },
+        {
+            "id": 42,
+            "question": "Which scheduling algorithm is considered non-preemptive?",
+            "answers": [
+                {"id": 1, "answer": "First Come, First Served (FCFS)", "correct": true},
+                {"id": 2, "answer": "Shortest Job First (SJF)", "correct": false},
+                {"id": 3, "answer": "Round Robin (RR)", "correct": false},
+                {"id": 4, "answer": "Priority Scheduling (PS)", "correct": false}
+            ]
+        },
+        {
+            "id": 43,
+            "question": "Which scheduling algorithm is generally considered fairer to all processes, even if it doesn’t optimize for shortest average waiting times?",
+            "answers": [
+                {"id": 1, "answer": "Priority Scheduling (PS)", "correct": false},
+                {"id": 2, "answer": "Round Robin (RR)", "correct": true},
+                {"id": 3, "answer": "Shortest Job First (SJF)", "correct": false},
+                {"id": 4, "answer": "First Come, First Served (FCFS)", "correct": false}
+            ]
+        },
+        {
+            "id": 44,
+            "question": "What is a major disadvantage of the First Come, First Served (FCFS) scheduling algorithm?",
+            "answers": [
+                {"id": 1, "answer": "It is complex to implement", "correct": false},
+                {"id": 2, "answer": "It does not prioritize important tasks", "correct": false},
+                {"id": 3, "answer": "It requires knowledge of future CPU burst times", "correct": false},
+                {"id": 4, "answer": "It can lead to long average waiting times, especially if a long process arrives early", "correct": true}
+            ]
+        },
+        {
+            "id": 45,
+            "question": "Which scheduling algorithm is more susceptible to the 'convoy effect', where a slow process delays others behind it?",
+            "answers": [
+                {"id": 1, "answer": "First Come, First Served (FCFS)", "correct": true},
+                {"id": 2, "answer": "Shortest Job First (SJF)", "correct": false},
+                {"id": 3, "answer": "Round Robin (RR)", "correct": false},
+                {"id": 4, "answer": "Priority Scheduling (PS)", "correct": false}
+            ]
+        },
+        {
+            "id": 46,
+            "question": "How does the time quantum in Round Robin scheduling affect process performance?",
+            "answers": [
+                {"id": 1, "answer": "A very large time quantum approaches FCFS behavior", "correct": true},
+                {"id": 2, "answer": "A very small time quantum increases context switching overhead but can improve responsiveness", "correct": true},
+                {"id": 3, "answer": "The time quantum has no impact on process performance", "correct": false},
+                {"id": 4, "answer": "A fixed time quantum always leads to optimal CPU utilization", "correct": false}
+            ]
+        },
+        {
+            "id": 47,
+            "question": "What is a benefit of using SJF (Shortest Job First) scheduling?",
+            "answers": [
+                {"id": 1, "answer": "It can minimize average waiting times for processes", "correct": true},
+                {"id": 2, "answer": "It guarantees fairness for all processes", "correct": false},
+                {"id": 3, "answer": "It is simple to implement", "correct": false},
+                {"id": 4, "answer": "It avoids the convoy effect", "correct": false}
+            ]
+        },
+        {
+            "id": 48,
+            "question": "What is a potential drawback of using Priority Scheduling (PS) if not carefully implemented?",
+            "answers": [
+                {"id": 1, "answer": "Starvation of low-priority processes", "correct": true},
+                {"id": 2, "answer": "Increased context switching overhead", "correct": false},
+                {"id": 3, "answer": "Reduced CPU utilization", "correct": false},
+                {"id": 4, "answer": "Longer average waiting times", "correct": false}
+            ]
+        },
+        {
+            "id": 49,
+            "question": "When might a multi-level queue scheduling approach be beneficial?",
+            "answers": [
+                {"id": 1, "answer": "When there are distinct classes of processes with different priorities or resource requirements", "correct": true},
+                {"id": 2, "answer": "When simplicity is the primary concern", "correct": false},
+                {"id": 3, "answer": "When all processes have equal importance", "correct": false},
+                {"id": 4, "answer": "When real-time responsiveness is not critical", "correct": false}
+            ]
+        },
+        {
+            "id": 50,
+            "question": "Which scheduling algorithm typically results in the highest CPU utilization?",
+            "answers": [
+                {"id": 1, "answer": "Shortest Job First (SJF)", "correct": true},
+                {"id": 2, "answer": "First Come, First Served (FCFS)", "correct": false},
+                {"id": 3, "answer": "Round Robin (RR) with a large time quantum", "correct": false},
+                {"id": 4, "answer": "Priority Scheduling (PS) with many priority levels", "correct": false}
+            ]
+        },
+        {
+            "id": 51,
+            "question": "Which of the following scheduling algorithms does not generate starvation to processes?",
+            "answers": [
+                {"id": 1, "answer": "Shortest Remaining Time (SRT)", "correct": false},
+                {"id": 2, "answer": "Round Robin (RR)", "correct": true},
+                {"id": 3, "answer": "First-Come First-Served (FCFS)", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 52,
+            "question": "In which of the following schedulers the return time of the process will only depend on the number of processes that are in the ready queue regardless of their required burst or remaining execution times?",
+            "answers": [
+                {"id": 1, "answer": "Shortest Remaining Time (SRT)", "correct": false},
+                {"id": 2, "answer": "Round Robin (RR)", "correct": true},
+                {"id": 3, "answer": "First-Come First-Served (FCFS)", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 53,
+            "question": "Which of the following scheduling algorithms is preemptive and provides good response times for short processes with minimum overhead?",
+            "answers": [
+                {"id": 1, "answer": "Shortest Remaining Time (SRT)", "correct": true},
+                {"id": 2, "answer": "Round Robin (RR)", "correct": false},
+                {"id": 3, "answer": "First-Come First-Served (FCFS)", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 54,
+            "question": "When an operating system uses a RR (Round Robin) scheduler, which of the following statements is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "The turnaround time of a process only depends on the service time of that process", "correct": false},
+                {"id": 2, "answer": "The turnaround time of a process only depends on the number of processes running in the system", "correct": false},
+                {"id": 3, "answer": "The turnaround time of a process only depends on the arrival time (when the process was first created)", "correct": false},
+                {"id": 4, "answer": "The turnaround time of a process depends on the combination of all the factors (arrival time, service time and number of processes)", "correct": true}
+            ]
+        },
+        {
+            "id": 55,
+            "question": "Which scheduling algorithm generally prioritizes minimizing ‘waiting time’, often leading to shorter response times?",
+            "answers": [
+                {"id": 1, "answer": "Shortest Job First (SJF)", "correct": true},
+                {"id": 2, "answer": "First-Come, First-Served (FCFS)", "correct": false},
+                {"id": 3, "answer": "Round Robin (RR) with a small time quantum", "correct": false},
+                {"id": 4, "answer": "Priority Scheduling (PS) with high priority for short processes", "correct": false}
+            ]
+        },
+        {
+            "id": 56,
+            "question": "What performance parameter is defined as ‘the time that a process must wait between it arrives at the system and it finishes executing’?",
+            "answers": [
+                {"id": 1, "answer": "Throughput", "correct": false},
+                {"id": 2, "answer": "Response time", "correct": false},
+                {"id": 3, "answer": "Turnaround time", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 57,
+            "question": "What is meant by ‘throughput’ in the context of process scheduling?",
+            "answers": [
+                {"id": 1, "answer": "The number of processes completed per unit of time", "correct": true},
+                {"id": 2, "answer": "The average waiting time for a process in the ready queue", "correct": false},
+                {"id": 3, "answer": "The amount of CPU time allocated to each process", "correct": false},
+                {"id": 4, "answer": "The response time of the system to user requests", "correct": false}
+            ]
+        },
+        {
+            "id": 58,
+            "question": "Which metric measures ‘the average amount of time a process spends waiting in the ready queue before it is allocated to the CPU’?",
+            "answers": [
+                {"id": 1, "answer": "Turnaround Time", "correct": false},
+                {"id": 2, "answer": "Response Time", "correct": false},
+                {"id": 3, "answer": "Waiting Time", "correct": true},
+                {"id": 4, "answer": "Throughput", "correct": false}
+            ]
+        },
+        {
+            "id": 59,
+            "question": "How does ‘CPU utilization’ directly relate to process scheduling?",
+            "answers": [
+                {"id": 1, "answer": "It is a measure of system responsiveness to user requests", "correct": false},
+                {"id": 2, "answer": "It represents the total number of processes completed by the system per unit of time", "correct": false},
+                {"id": 3, "answer": "It indicates the average amount of time a process waits for resources before being executed", "correct": false},
+                {"id": 4, "answer": "It measures the percentage of time the CPU is actively executing instructions, reflecting scheduler efficiency in keeping the CPU busy", "correct": true}
+            ]
+        },
+        {
+            "id": 60,
+            "question": "Which factor is LEAST likely to directly influence ‘throughput’ in a process scheduling system?",
+            "answers": [
+                {"id": 1, "answer": "The speed of the CPU", "correct": false},
+                {"id": 2, "answer": "The efficiency of the scheduler in allocating CPU time", "correct": false},
+                {"id": 3, "answer": "The programming language used by the processes", "correct": true},
+                {"id": 4, "answer": "The number of available resources (e.g., memory, I/O devices)", "correct": false}
+            ]
+        },
+        {
+            "id": 61,
+            "question": "How can 'turnaround time' be minimized when dealing with processes that have varying execution times?",
+            "answers": [
+                {"id": 1, "answer": "Maximizing CPU utilization by keeping the CPU constantly busy", "correct": false},
+                {"id": 2, "answer": "Always using a First-Come, First-Served (FCFS) scheduling approach", "correct": false},
+                {"id": 3, "answer": "Reducing context switching overhead through efficient dispatcher implementation", "correct": false},
+                {"id": 4, "answer": "By prioritizing shorter processes using algorithms like Shortest Job First (SJF)", "correct": true}
+            ]
+        },
+        {
+            "id": 62,
+            "question": "What is a potential drawback of solely focusing on minimizing 'response time' as a primary performance metric?",
+            "answers": [
+                {"id": 1, "answer": "It always guarantees the highest possible throughput for the system", "correct": false},
+                {"id": 2, "answer": "It is not relevant in interactive systems requiring quick responses", "correct": false},
+                {"id": 3, "answer": "It might lead to starvation of longer processes, causing them to experience significant delays", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 63,
+            "question": "What is the most important performance parameter in an operating system that is used in a real-time application (i.e., the ECU <Electronic Control Unit> of a car)?",
+            "answers": [
+                {"id": 1, "answer": "Processor utilization (i.e., the utilization of the CPU is maximized)", "correct": false},
+                {"id": 2, "answer": "Allocation fairness (i.e., all processes in the system receive the same amount of computational resources)", "correct": false},
+                {"id": 3, "answer": "Execution determinism (each process takes the same amount of time to complete regardless of the system state)", "correct": true},
+                {"id": 4, "answer": "Throughput maximization (i.e., the number of processes that are completed by the system per unit of time)", "correct": false}
+            ]
+        },
+        {
+            "id": 64,
+            "question": "What value does the fork() system call return when it succeeds and returns execution to the child process?",
+            "answers": [
+                {"id": 1, "answer": "-1", "correct": false},
+                {"id": 2, "answer": "0", "correct": true},
+                {"id": 3, "answer": "1", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 65,
+            "question": "What value does the fork() system call return when it succeeds and returns execution to the parent process?",
+            "answers": [
+                {"id": 1, "answer": "-1", "correct": false},
+                {"id": 2, "answer": "0", "correct": false},
+                {"id": 3, "answer": "A positive integer representing the child's PID", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 66,
+            "question": "To get the process identifier of the child process that was just created in a fork() system call, a parent process can use the system call:",
+            "answers": [
+                {"id": 1, "answer": "getpid()", "correct": false},
+                {"id": 2, "answer": "getchildpid()", "correct": false},
+                {"id": 3, "answer": "getforkpid()", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 67,
+            "question": "To get the process identifier of the parent process, a child process can use the system call:",
+            "answers": [
+                {"id": 1, "answer": "getpid()", "correct": false},
+                {"id": 2, "answer": "getppid()", "correct": true},
+                {"id": 3, "answer": "getforkpid()", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 68,
+            "question": "What does the fork() system call primarily achieve?",
+            "answers": [
+                {"id": 1, "answer": "Executes a new program with a different set of arguments", "correct": false},
+                {"id": 2, "answer": "Creates a new process, which is an exact copy of the parent process", "correct": true},
+                {"id": 3, "answer": "Terminates the current process gracefully", "correct": false},
+                {"id": 4, "answer": "Modifies the file permissions of a specified file", "correct": false}
+            ]
+        },
+        {
+            "id": 69,
+            "question": "Which statement about the memory space of a child process after a successful fork() is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "It is empty and needs to be initialized by the child process", "correct": false},
+                {"id": 2, "answer": "It is completely independent and unrelated to the parent's memory space", "correct": false},
+                {"id": 3, "answer": "It shares the same memory space as the parent process, but with different data modifications", "correct": false},
+                {"id": 4, "answer": "It is a copy of the parent's entire memory space, including open files and other resources", "correct": true}
+            ]
+        },
+        {
+            "id": 70,
+            "question": "What happens after fork(), before the child process can start executing its own code?",
+            "answers": [
+                {"id": 1, "answer": "The child process enters an idle state until explicitly woken up by the parent", "correct": false},
+                {"id": 2, "answer": "The child process waits for the parent process to finish before starting its execution", "correct": false},
+                {"id": 3, "answer": "The child process inherits the parent's current program counter and executes the same code", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 71,
+            "question": "Which system call is responsible for replacing the current process image with a new program?",
+            "answers": [
+                {"id": 1, "answer": "fork()", "correct": false},
+                {"id": 2, "answer": "exec()", "correct": true},
+                {"id": 3, "answer": "wait()", "correct": false},
+                {"id": 4, "answer": "exit()", "correct": false}
+            ]
+        },
+        {
+            "id": 72,
+            "question": "What happens to the original process image after a successful exec() call?",
+            "answers": [
+                {"id": 1, "answer": "It remains unchanged, but its execution context is modified", "correct": false},
+                {"id": 2, "answer": "It is completely overwritten by the new program’s code and data", "correct": true},
+                {"id": 3, "answer": "It is removed from memory to free space to create a new process image for the child", "correct": false},
+                {"id": 4, "answer": "It is saved by the operating system and restored when the child process finishes executing", "correct": false}
+            ]
+        },
+        {
+            "id": 73,
+            "question": "If a program executes exec() without using fork(), which of the following sentences better describes the outcome?",
+            "answers": [
+                {"id": 1, "answer": "The parent process will still be executed after the new program loaded by exec() finishes executing", "correct": false},
+                {"id": 2, "answer": "The parent process will continue running in parallel with the new process that has been created using exec()", "correct": false},
+                {"id": 3, "answer": "The new program executed by exec() will still be able to access any resources from the parent process", "correct": false},
+                {"id": 4, "answer": "The new program executed by exec() will have a different PID than the parent process to reflect it is a new process", "correct": true}
+            ]
+        },
+        {
+            "id": 74,
+            "question": "What is the difference between exec() and fork(), in terms of process execution?",
+            "answers": [
+                {"id": 1, "answer": "fork() creates a new process, while exec() replaces the current process with a new one", "correct": true},
+                {"id": 2, "answer": "fork() executes a new program, while exec() terminates the current process", "correct": false},
+                {"id": 3, "answer": "fork() waits for the child process to finish, while exec() does not", "correct": false},
+                {"id": 4, "answer": "There is no practical difference, both system calls achieve the same result", "correct": false}
+            ]
+        },
+        {
+            "id": 75,
+            "question": "Which of the following statements about exec() family functions (e.g., execl(), execv()) is FALSE?",
+            "answers": [
+                {"id": 1, "answer": "They take arguments specifying the path to the new program and its arguments", "correct": false},
+                {"id": 2, "answer": "They modify the current process, replacing it with a new one", "correct": false},
+                {"id": 3, "answer": "They return only if an error occurs during the process of loading and executing the new program", "correct": false},
+                {"id": 4, "answer": "They always create a new child process before replacing the current process", "correct": true}
+            ]
+        },
+        {
+            "id": 76,
+            "question": "If a process calls fork() followed by an immediate call to exec(), what happens to the parent process that called fork()?",
+            "answers": [
+                {"id": 1, "answer": "The parent process continues executing normally, creating a new child process and replacing it with another program", "correct": true},
+                {"id": 2, "answer": "The parent process is paused until the child process completes execution of the program loaded by exec()", "correct": false},
+                {"id": 3, "answer": "The parent process terminates as soon as the child process is created", "correct": false},
+                {"id": 4, "answer": "The parent process remains dormant until explicitly awakened using a system call like wait() or sleep()", "correct": false}
+            ]
+        },
+        {
+            "id": 77,
+            "question": "In the context of fork() system call, which statement is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "The new process created by fork() will always have the same address space as the parent process", "correct": false},
+                {"id": 2, "answer": "The new process created by fork() will never share the memory space with the parent process", "correct": false},
+                {"id": 3, "answer": "The new process created by fork() may or may not inherit all the resources of the parent process", "correct": true},
+                {"id": 4, "answer": "The new process created by fork() always runs simultaneously with the parent process", "correct": false}
+            ]
+        },
+        {
+            "id": 78,
+            "question": "What happens to the old (parent) program’s address space after a successful fork() and exec()?",
+            "answers": [
+                {"id": 1, "answer": "It remains unchanged in both parent and child processes", "correct": false},
+                {"id": 2, "answer": "It is replaced only in the child process", "correct": true},
+                {"id": 3, "answer": "It is replaced in both parent and child processes", "correct": false},
+                {"id": 4, "answer": "It is deleted from both parent and child processes", "correct": false}
+            ]
+        },
+        {
+            "id": 79,
+            "question": "If a child process is created from another process with a system call to fork(), the created child process will inherit:",
+            "answers": [
+                {"id": 1, "answer": "The PID of the process (both processes have the same PID)", "correct": false},
+                {"id": 2, "answer": "The file descriptors that the parent process has (both processes can access the same files without reopening them)", "correct": true},
+                {"id": 3, "answer": "The execution time of the process (both processes will take the same CPU time to execute)", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 80,
+            "question": "We have a child process created with the fork() system call. If the child wants to send some information to the parent, which of the following can be used as a communication mechanism?",
+            "answers": [
+                {"id": 1, "answer": "A global integer variable of the parent process", "correct": false},
+                {"id": 2, "answer": "A local integer variable of the parent process", "correct": false},
+                {"id": 3, "answer": "A local integer variable of the child process", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        }
+    ],
+    "tema3":[
+        {
+            "id": 1,
+            "question": "Which of the following I/O devices use block-oriented data transfers?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Keyboard",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "Mouse",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "Hard drive",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "In which of the following I/O data transfer modes the operating system uses a busy-waiting strategy to wait until the data transfer operation is complete?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Programmed",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "Interrupt-driven",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "DMA-based",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "About input and output devices, which statement is TRUE?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "A physical device is formed by the peripheral and the software that manages it",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "Logical devices do not necessarily have to have a physical device associated with them",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "The window is a logical type device",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "All of the above statements are true",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Which I/O device typically uses character-oriented data transfers?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Keyboard",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "Mouse",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "Hard drive",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "In which data transfer mode does the operating system actively control the data movement between processes and I/O devices?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Programmed I/O",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "Interrupt-driven I/O",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "DMA-based I/O",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "What is the main function of a controller in managing an I/O device?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "To handle errors and translate data formats",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "To perform data encryption and decryption",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "To manage memory allocation and deallocation",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "What does the acronym DMA stand for in I/O devices?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Direct Memory Access",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "Disk Management Agent",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "Data Migration Architecture",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "What is the main advantage of using DMA (Direct Memory Access) for data transfer?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "It reduces CPU involvement in data movement",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "It increases data security during transfers",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "It provides real-time error correction during data transfers",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Consider a disk with an average seek time of 8 ms, rotation speed of 6000 rpm, 512-byte sectors, and 1024 sectors per track. Suppose that we wish to read a file consisting of 256 kbytes (1 kbyte = 1024 bytes). What is the transfer speed (TS, Mbytes/s) if the blocks are stored sequentially?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "TS < 5 Mbytes/s",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "5 ≤ TS < 10 Mbytes/s",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "10 ≤ TS < 15 Mbytes/s",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "TS ≥ 15 Mbytes/s",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Consider a disk with an average seek time of 10 ms, rotation speed of 6000 rpm, 1024 bytes per sector, and 1024 sectors per track. Suppose that we wish to read a file that is 1 Mbyte. What is the transfer speed (TS, Mbytes/second) if the blocks are stored sequentially and in the same sector?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "TS < 15 Mbytes/s",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "15 < TS ≤ 25 Mbytes/s",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "25 < TS ≤ 35 Mbytes/s",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "TS > 35 Mbytes/s",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "question": "What is the disk scheduling policy that minimizes the seek time between consecutive I/O operations regardless of the process priority?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "FIFO",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "SSTF",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "answer": "C-SCAN",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Which disk scheduling policy aims to reduce the total distance traveled by the disk head?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "FIFO",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "SSTF",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "answer": "C-SCAN",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "question": "Which disk scheduling policy aims to reduce both seek time and rotational latency by ordering requests based on their expected arrival time?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "SCAN",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "C-SCAN",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "LOOK",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "question": "What is the main difference between the SCAN and C-SCAN disk scheduling policies?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "SCAN always starts in the same direction, while C-SCAN alternates directions",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "SCAN serves requests in both directions simultaneously, while C-SCAN serves them sequentially",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "SCAN uses a fixed head movement pattern, while C-SCAN adapts to the incoming requests",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Which disk scheduling policy always services requests in the order they arrive, without any optimization for seek time or rotational latency?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "FIFO",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "SSTF",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "SCAN",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "question": "Which disk scheduling policy is an improvement over the SSTF policy, reducing the chance of starvation for requests that are not at the beginning or end of the disk?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "C-SCAN",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "LOOK",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "C-LOOK",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "question": "What is the main disadvantage of using the SSTF disk scheduling policy?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "It can cause excessive head movement and increased latency for some requests",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "It requires a complex controller to implement",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "It is not suitable for systems with high I/O loads",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "question": "What is the RAID level that provides mirroring between disks, requires an even number of disks, and provides increased read transfer capacity but provides equal read transfer capacity when compared to a single disk?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "RAID 0",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "RAID 1",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "answer": "RAID 5",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "RAID 6",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "question": "What is the RAID level that provides block-interleaved distributed parity and requires N+1 disks to operate?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "RAID 5",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "RAID 6",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "RAID 10",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "question": "What is the RAID level that provides data striping and error correction capabilities but requires a minimum of 4 disks to operate?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "RAID 0",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "RAID 1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "RAID 5",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "RAID 6",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "question": "Which RAID level provides striped data without parity or redundancy, offering improved performance but no data protection?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "RAID 0",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "RAID 1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "RAID 5",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "RAID 6",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "question": "What is the minimum number of disks required for a RAID 10 (or RAID 1+0) configuration?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "4",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "answer": "8",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Which RAID level uses block-level striping with distributed parity and requires a minimum of 3 disks to operate?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "RAID 5",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "RAID 6",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "RAID 10",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "question": "In a RAID 5 configuration, where is the parity information stored?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "On a separate dedicated disk",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "Across all disks in the array on a rotating basis",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "answer": "In a central controller",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Which RAID level provides double parity for increased data protection but requires a minimum of 4 disks to operate?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "RAID 5",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "RAID 6",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "answer": "RAID 10",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "tema4":[
+        {
+            "id": 1,
+            "question": "In a UNIX-like filesystem, what is the primary purpose of an i-node?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "To store user login information",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "To keep track of file metadata and disk location information",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "answer": "To manage process scheduling",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "To handle inter-process communication (IPC)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Where is the file descriptor for an open file stored in a UNIX-like system?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "In the process’s file descriptor table",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "In the kernel’s open file table",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "In the vnode table of the kernel",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Where does the operating system store the 'reference count' variable to indicate the number of processes that are currently pointing to a file that is currently open?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "In the file descriptor table of each process",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "In a file table entry of the open file table",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "answer": "In a vnode table entry of the vnode table",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "The operating system does not need to store the number of processes that use a file",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Where is the information related to the file status flags (i.e., read or write property) and the current file offset stored?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "The file descriptor entry in the process table",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "An entry in the open file table of the kernel",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "answer": "An entry in the vnode table of the kernel",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "What happens if a file descriptor remains open but the process that opened it terminates without closing it properly?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "The file is automatically closed by the kernel",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "answer": "The file remains open indefinitely until reboot",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "The file is moved to the /tmp directory",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Which of the following is a characteristic of the linked allocation method?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Files are stored in contiguous blocks",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "File blocks are linked using pointers within the file itself",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "answer": "Each block contains a pointer to the next block, stored in a separate directory",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "Disk space is allocated in large fixed-size chunks called extents",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "What is the main drawback of the contiguous allocation method?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Poor performance for small files",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "Inefficient disk space utilization for large files",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "Fragmentation issues when files are frequently modified",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "All of the above",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "What is the main advantage of using an indexed allocation strategy over contiguous or linked allocation?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Faster file deletion",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "Faster file creation",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "Better handling of small files",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "More efficient disk space utilization for large files",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "In which of the following file allocation mechanisms blocks of a file can be distributed across the disk at random, reducing the overall I/O performance of the system?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Indexed allocation with variable length portions",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "Chained allocation",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "answer": "Contiguous allocation",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "None of the above",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "What is the main drawback of the contiguous allocation mechanism in filesystems?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "It suffers from external fragmentation",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "answer": "It is difficult to accommodate changes to the file (i.e., increase size)",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "answer": "The size of the file has to be declared when it is created",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "answer": "All of the above statements are drawbacks of the contiguous allocation mechanism",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "question": "In a file system that implements chained allocation, which of the following statements is FALSE?",
+            "answers": [
+                {"id": 1, "answer": "It increases the read and write performance thanks to allowing sequential access", "correct": false},
+                {"id": 2, "answer": "It allows files to grow and shrink easily, since blocks can be added or removed from the chain", "correct": false},
+                {"id": 3, "answer": "It ensures that external fragmentation does not happen", "correct": false},
+                {"id": 4, "answer": "None of the statements is false", "correct": true}
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Which of the following is a common limitation of the FAT (File Allocation Table) filesystem?",
+            "answers": [
+                {"id": 1, "answer": "Large maximum filename length support (>255 characters)", "correct": false},
+                {"id": 2, "answer": "High disk space utilization efficiency", "correct": false},
+                {"id": 3, "answer": "Limited support for large disks (e.g., beyond 4 GB without modifications)", "correct": true},
+                {"id": 4, "answer": "Strong journaling capabilities to prevent data loss", "correct": false}
+            ]
+        },
+        {
+            "id": 13,
+            "question": "Which command changes file ownership in a UNIX-like system?",
+            "answers": [
+                {"id": 1, "answer": "chmod", "correct": false},
+                {"id": 2, "answer": "chown", "correct": true},
+                {"id": 3, "answer": "ls", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 14,
+            "question": "A file named file.txt in a UNIX system has the following permissions rwxr-xrw-. Which of the following statements is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "Users who are neither the owner nor the same group cannot write to the file", "correct": false},
+                {"id": 2, "answer": "Only the owner can write to the file", "correct": false},
+                {"id": 3, "answer": "Any user can read the file", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 15,
+            "question": "A file named file.txt in UNIX has the following permissions rw-r–-r–-. Which of the following statements is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "Users who belong to the same group can execute the file", "correct": false},
+                {"id": 2, "answer": "Only the owner user can write to the file", "correct": true},
+                {"id": 3, "answer": "Users who are neither the owner nor the same group cannot read the file", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 16,
+            "question": "A file named 'file.txt' on a UNIX system has the following permissions r–-r-xrw-. Which of the following statements is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "Users who are neither the owner nor the same group cannot write to the file", "correct": false},
+                {"id": 2, "answer": "Only the owner can write to the file", "correct": false},
+                {"id": 3, "answer": "Any user can read the file", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 17,
+            "question": "A file named file.txt file in UNIX has the following permissions rw-r–-r–-, which statement is true?",
+            "answers": [
+                {"id": 1, "answer": "Users who belong to the same group can execute the file", "correct": false},
+                {"id": 2, "answer": "Only the owner user can write to the file", "correct": true},
+                {"id": 3, "answer": "Users who are neither the owner nor the same group cannot read the file", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 18,
+            "question": "A file named 'file.txt' in UNIX has the following permissions 663. Which of the following statements is true?",
+            "answers": [
+                {"id": 1, "answer": "Users belonging to the same group can execute the file", "correct": false},
+                {"id": 2, "answer": "Only users belonging to the same group can write to the file", "correct": false},
+                {"id": 3, "answer": "Only the owner can execute the file", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 19,
+            "question": "A file named file.txt on a UNIX has the following permissions 774. Which of the following statements is TRUE?",
+            "answers": [
+                {"id": 1, "answer": "Users belonging to the same group can execute the file", "correct": true},
+                {"id": 2, "answer": "Only users belonging to the same group can write to the file", "correct": false},
+                {"id": 3, "answer": "Only the owner can execute the file", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 20,
+            "question": "How does one change permissions of a file named program so that it can be read, write and executed by the owner, but not read and executed by users in the same group and all system users?",
+            "answers": [
+                {"id": 1, "answer": "chmod 541 program", "correct": false},
+                {"id": 2, "answer": "chmod 644 program", "correct": false},
+                {"id": 3, "answer": "chmod 751 program", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 21,
+            "question": "How does one change permissions of a file named program so that it can be read, write and executed by the owner, but not read and executed by users in the same group and all system users?",
+            "answers": [
+                {"id": 1, "answer": "chmod 541 program", "correct": false},
+                {"id": 2, "answer": "chmod 644 program", "correct": false},
+                {"id": 3, "answer": "chmod 751 program", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 22,
+            "question": "There is a file named 'file.txt' in the current directory. The file is owned by a user named 'esupt' that belongs to the group 'esupt'. What is the command to allow the owner of the file to read and write it, members of the 'esupt' group to read and execute the file, and all the remaining users of the system to only read the file?",
+            "answers": [
+                {"id": 1, "answer": "chmod 645 file.txt", "correct": false},
+                {"id": 2, "answer": "chown 654 file.txt", "correct": false},
+                {"id": 3, "answer": "chmod 564 file.txt", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 23,
+            "question": "There is a file named 'file.txt' in the current directory that has a length of 1024 bytes. We use the following system call to open the file in read-only and append mode: fd = open('file.txt', O_RDONLY, O_APPEND). Assuming that fd=3, how can we go back to the start of the file without closing it and opening it again?",
+            "answers": [
+                {"id": 1, "answer": "lseek(3, -1024, SEEK_CUR)", "correct": false},
+                {"id": 2, "answer": "lseek(3, 0, SEEK_SET)", "correct": true},
+                {"id": 3, "answer": "lseek(3, 0, SEEK_CUR)", "correct": false},
+                {"id": 4, "answer": "Both A) and B) answers are correct, but answer C) is not correct", "correct": false}
+            ]
+        },
+        {
+            "id": 24,
+            "question": "If we have a file named 'file.txt' that is 1024 bytes long, what will be the value of the cont variable when the parent and the child process execute the sprintf() system call? Assume that there are no errors in the program execution (i.e., system or function calls).",
+            "answers": [
+                {"id": 1, "answer": "The value of the cont variable will be 0 for both processes", "correct": false},
+                {"id": 2, "answer": "The value of the cont variable will be 512 for both processes", "correct": false},
+                {"id": 3, "answer": "The value of the cont variable will be 1024 for both processes", "correct": true},
+                {"id": 4, "answer": "The value of the cont variable cannot be determined", "correct": false}
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Assuming that no other system call related to files has been executed before (i.e., open or close), what is the return value of the following call? int fd = open('file.txt')",
+            "answers": [
+                {"id": 1, "answer": "fd = 0", "correct": false},
+                {"id": 2, "answer": "fd = 1", "correct": false},
+                {"id": 3, "answer": "fd = 2", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        }
+    ],
+    "tema5":[
+        {
+            "id": 1,
+            "question": "What is the purpose of signals in UNIX-like systems?",
+            "answers": [
+                {"id": 1, "answer": "To provide feedback to the user during program execution", "correct": false},
+                {"id": 2, "answer": "To notify a program of important events that require immediate attention", "correct": true},
+                {"id": 3, "answer": "To manage memory allocation within processes", "correct": false},
+                {"id": 4, "answer": "To terminate processes without any cleanup operations", "correct": false}
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Which signal is sent when the user interrupts a program with Ctrl + C?",
+            "answers": [
+                {"id": 1, "answer": "SIGINT", "correct": true},
+                {"id": 2, "answer": "SIGTERM", "correct": false},
+                {"id": 3, "answer": "SIGHUP", "correct": false},
+                {"id": 4, "answer": "SIGKILL", "correct": false}
+            ]
+        },
+        {
+            "id": 3,
+            "question": "What is the default action for the SIGTERM signal?",
+            "answers": [
+                {"id": 1, "answer": "Terminate the process", "correct": true},
+                {"id": 2, "answer": "Ignore the signal", "correct": false},
+                {"id": 3, "answer": "Dump core", "correct": false},
+                {"id": 4, "answer": "Stop the process", "correct": false}
+            ]
+        },
+        {
+            "id": 4,
+            "question": "How can a process explicitly handle signals in UNIX-like systems?",
+            "answers": [
+                {"id": 1, "answer": "Using the atexit() function", "correct": false},
+                {"id": 2, "answer": "Using the signal() or sigaction() system calls", "correct": true},
+                {"id": 3, "answer": "Using the fork() system call", "correct": false},
+                {"id": 4, "answer": "Using the execvp() system call", "correct": false}
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Which command is used to send signals between processes?",
+            "answers": [
+                {"id": 1, "answer": "kill()", "correct": true},
+                {"id": 2, "answer": "ps()", "correct": false},
+                {"id": 3, "answer": "top()", "correct": false},
+                {"id": 4, "answer": "netstat()", "correct": false}
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Which signal forces a process to terminate immediately without performing any cleanup operations?",
+            "answers": [
+                {"id": 1, "answer": "SIGTERM", "correct": false},
+                {"id": 2, "answer": "SIGKILL", "correct": true},
+                {"id": 3, "answer": "SIGQUIT", "correct": false},
+                {"id": 4, "answer": "SIGINT", "correct": false}
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Which system call is used to send a signal to a specific process?",
+            "answers": [
+                {"id": 1, "answer": "kill()", "correct": true},
+                {"id": 2, "answer": "raise()", "correct": false},
+                {"id": 3, "answer": "signal()", "correct": false},
+                {"id": 4, "answer": "sigwait()", "correct": false}
+            ]
+        },
+        {
+            "id": 8,
+            "question": "In signal handling, which function is used to block the execution of a process until a specific signal is received?",
+            "answers": [
+                {"id": 1, "answer": "sigblock()", "correct": false},
+                {"id": 2, "answer": "sigpause()", "correct": false},
+                {"id": 3, "answer": "sigwait()", "correct": false},
+                {"id": 4, "answer": "sigsuspend()", "correct": true}
+            ]
+        },
+        {
+            "id": 9,
+            "question": "What is the main difference between named pipes and anonymous pipes in IPC?",
+            "answers": [
+                {"id": 1, "answer": "Named pipes are unidirectional, while anonymous pipes are bidirectional", "correct": false},
+                {"id": 2, "answer": "Anonymous pipes require a name to be specified during creation", "correct": false},
+                {"id": 3, "answer": "Named pipes can be accessed by different processes without a shared file descriptor", "correct": true},
+                {"id": 4, "answer": "Both named and anonymous pipes are created using the same system call", "correct": false}
+            ]
+        },
+        {
+            "id": 10,
+            "question": "What is the primary characteristic of an unnamed pipe in terms of its existence?",
+            "answers": [
+                {"id": 1, "answer": "It exists in a file system namespace", "correct": false},
+                {"id": 2, "answer": "It has no existence in any file name space", "correct": true},
+                {"id": 3, "answer": "It requires explicit naming during creation", "correct": false},
+                {"id": 4, "answer": "It persists across process termination", "correct": false}
+            ]
+        },
+        {
+            "id": 11,
+            "question": "How many file descriptors are returned by the pipe() system call?",
+            "answers": [
+                {"id": 1, "answer": "1", "correct": false},
+                {"id": 2, "answer": "2", "correct": true},
+                {"id": 3, "answer": "4", "correct": false},
+                {"id": 4, "answer": "8", "correct": false}
+            ]
+        },
+        {
+            "id": 12,
+            "question": "After forking, which process should close its duplicate file descriptors to ensure proper pipe functionality?",
+            "answers": [
+                {"id": 1, "answer": "The parent process only", "correct": false},
+                {"id": 2, "answer": "Both the parent and child processes", "correct": true},
+                {"id": 3, "answer": "Neither; the kernel manages this automatically", "correct": false},
+                {"id": 4, "answer": "Only the reader process", "correct": false}
+            ]
+        },
+        {
+            "id": 13,
+            "question": "Why is it important to close duplicate file descriptors in a forked process?",
+            "answers": [
+                {"id": 1, "answer": "To prevent multiple readers from accessing the pipe simultaneously", "correct": false},
+                {"id": 2, "answer": "To ensure an end-of-file indication when all writers have closed their ends", "correct": true},
+                {"id": 3, "answer": "To allow the pipe to be reused by other processes", "correct": false},
+                {"id": 4, "answer": "To reduce memory usage", "correct": false}
+            ]
+        },
+        {
+            "id": 14,
+            "question": "Which of the following is true about a named pipe?",
+            "answers": [
+                {"id": 1, "answer": "It can only be accessed by related processes created via fork()", "correct": false},
+                {"id": 2, "answer": "It requires a name during creation and can be opened by any process with permission", "correct": true},
+                {"id": 3, "answer": "It exists as an anonymous resource in memory", "correct": false},
+                {"id": 4, "answer": "It is unidirectional", "correct": false}
+            ]
+        },
+        {
+            "id": 15,
+            "question": "What distinguishes a named pipe from an unnamed pipe?",
+            "answers": [
+                {"id": 1, "answer": "A named pipe requires explicit naming during creation, while an unnamed pipe does not", "correct": true},
+                {"id": 2, "answer": "An unnamed pipe can be accessed by any process with permission, while a named pipe is restricted to related processes", "correct": false},
+                {"id": 3, "answer": "A named pipe is unidirectional, while an unnamed pipe is bidirectional", "correct": false},
+                {"id": 4, "answer": "Named pipes cannot be used for communication between unrelated processes, while unnamed pipes can", "correct": false}
+            ]
+        },
+        {
+            "id": 16,
+            "question": "Which of the following is true about the file descriptors returned by the pipe() system call?",
+            "answers": [
+                {"id": 1, "answer": "Both file descriptors are unidirectional", "correct": false},
+                {"id": 2, "answer": "One descriptor is for reading and the other is for writing", "correct": true},
+                {"id": 3, "answer": "Both descriptors must be closed in both processes after use", "correct": false},
+                {"id": 4, "answer": "The descriptors are shared between processes automatically", "correct": false}
+            ]
+        },
+        {
+            "id": 17,
+            "question": "When using a pipe for communication between parent and child processes, which end should each process typically close?",
+            "answers": [
+                {"id": 1, "answer": "The parent closes the reader end, and the child closes the writer end", "correct": true},
+                {"id": 2, "answer": "Both processes should close both ends", "correct": false},
+                {"id": 3, "answer": "Only one end needs to be closed in each process", "correct": false},
+                {"id": 4, "answer": "No ends need to be closed; the kernel manages this automatically", "correct": false}
+            ]
+        },
+        {
+            "id": 18,
+            "question": "Which of the following is a potential issue if a process does not close its duplicate file descriptors after forking?",
+            "answers": [
+                {"id": 1, "answer": "The pipe will not allow any reads or writes", "correct": false},
+                {"id": 2, "answer": "The end-of-file indication will never be returned to readers", "correct": true},
+                {"id": 3, "answer": "The pipe will persist beyond the lifetime of the processes", "correct": false},
+                {"id": 4, "answer": "The child process will inherit the parent’s file descriptors automatically", "correct": false}
+            ]
+        },
+        {
+            "id": 19,
+            "question": "Which system call should be used to create a named pipe?",
+            "answers": [
+                {"id": 1, "answer": "pipe()", "correct": false},
+                {"id": 2, "answer": "access()", "correct": false},
+                {"id": 3, "answer": "mkfifo()", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 20,
+            "question": "Which system call should be used to create an unnamed pipe?",
+            "answers": [
+                {"id": 1, "answer": "pipe()", "correct": true},
+                {"id": 2, "answer": "mkfifo()", "correct": false},
+                {"id": 3, "answer": "mkpipe()", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 21,
+            "question": "Given two pipes, pipeA and pipeB, how would you correctly close the reading end of pipeA and the writing end of pipeB in C?",
+            "answers": [
+                {"id": 1, "answer": "close(pipeA[1]); close(pipeB[0]);", "correct": false},
+                {"id": 2, "answer": "close(pipeA[0]); close(pipeB[1]);", "correct": true},
+                {"id": 3, "answer": "close(pipeA[1]); close(pipeB[1]);", "correct": false},
+                {"id": 4, "answer": "close(pipeA[0]); close(pipeB[0]);", "correct": false}
+            ]
+        },
+        {
+            "id": 22,
+            "question": "When creating the server side of a connection-oriented socket, what is the system call that blocks until a client connects?",
+            "answers": [
+                {"id": 1, "answer": "connect()", "correct": false},
+                {"id": 2, "answer": "listen()", "correct": true},
+                {"id": 3, "answer": "bind()", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 23,
+            "question": "If we want a server to be able to receive client connection requests from any of its network interfaces, we must initialize the IP address of its socket with:",
+            "answers": [
+                {"id": 1, "answer": "htonl(INADDR_ANY)", "correct": true},
+                {"id": 2, "answer": "htons(INADDR_ANY)", "correct": false},
+                {"id": 3, "answer": "ntohl(INADDR_ANY)", "correct": false},
+                {"id": 4, "answer": "ntohs(INADRR_ANY)", "correct": false}
+            ]
+        },
+        {
+            "id": 24,
+            "question": "In order to convert a 16-bit integer value to be sent correctly through a socket we must use the function call:",
+            "answers": [
+                {"id": 1, "answer": "htons()", "correct": true},
+                {"id": 2, "answer": "htonl()", "correct": false},
+                {"id": 3, "answer": "ntohs()", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Which of the following UNIX socket types relies upon a connection-oriented transport protocol that provides reliable and bi-directional communications between the client and the server?",
+            "answers": [
+                {"id": 1, "answer": "STREAM", "correct": true},
+                {"id": 2, "answer": "RAW", "correct": false},
+                {"id": 3, "answer": "DATAGRAM", "correct": false},
+                {"id": 4, "answer": "IP", "correct": false}
+            ]
+        }
+    ],
+    "tema6":[
+        {
+            "id": 1,
+            "question": "What is a 'thread'?",
+            "answers": [
+                {"id": 1, "answer": "A lightweight unit of execution within a process that shares the process’s resources.", "correct": true},
+                {"id": 2, "answer": "A separate process with its own address space and resources.", "correct": false},
+                {"id": 3, "answer": "A data structure used to represent a process in memory.", "correct": false},
+                {"id": 4, "answer": "A signal sent from one process to another.", "correct": false}
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Which of the following elements is not part of the TCB (Thread Control Block)?",
+            "answers": [
+                {"id": 1, "answer": "Thread state (i.e., running, blocked, etc.)", "correct": false},
+                {"id": 2, "answer": "Context data (i.e., opened files)", "correct": false},
+                {"id": 3, "answer": "CPU state (i.e., CPU registers, etc.)", "correct": false},
+                {"id": 4, "answer": "All elements are part of the TCB", "correct": true}
+            ]
+        },
+        {
+            "id": 3,
+            "question": "What is the main benefit of implementing threads in the kernel space instead of using a user library?",
+            "answers": [
+                {"id": 1, "answer": "Switching between threads involves less overhead, allowing for faster execution of the application", "correct": false},
+                {"id": 2, "answer": "The process does not get blocked when a thread makes a system call that requires an I/O operation, allowing other threads of the process to continue executing", "correct": true},
+                {"id": 3, "answer": "Execution of threads within the process uses a co-operative approach, allowing for faster execution of the application", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 4,
+            "question": "What is the purpose of the TCB in thread management?",
+            "answers": [
+                {"id": 1, "answer": "Holds essential information like thread state, stack pointer, and registers.", "correct": true},
+                {"id": 2, "answer": "It manages the process’s address space allocation", "correct": false},
+                {"id": 3, "answer": "Is used to store file descriptors for each thread", "correct": false},
+                {"id": 4, "answer": "It allows to schedule threads on CPU cores", "correct": false}
+            ]
+        },
+        {
+            "id": 5,
+            "question": "What distinguishes kernel-level threads from user-level threads?",
+            "answers": [
+                {"id": 1, "answer": "Kernel-level threads are managed by the operating system, while user-level threads are managed by the application", "correct": true},
+                {"id": 2, "answer": "User-level threads share the same address space as kernel-level threads", "correct": false},
+                {"id": 3, "answer": "Kernel-level threads cannot be preempted, whereas user-level threads can", "correct": false},
+                {"id": 4, "answer": "Both types of threads require system calls to run", "correct": false}
+            ]
+        },
+        {
+            "id": 6,
+            "question": "What is the main difference between deadlock and starvation in concurrent systems?",
+            "answers": [
+                {"id": 1, "answer": "Deadlock occurs when two processes wait indefinitely, while starvation is when a process is perpetually delayed", "correct": true},
+                {"id": 2, "answer": "Deadlock involves resource unavailability, while starvation relates to CPU scheduling", "correct": false},
+                {"id": 3, "answer": "Deadlock is caused by mutual exclusion, starvation by priority inversion", "correct": false},
+                {"id": 4, "answer": "Both terms refer to the same phenomenon", "correct": false}
+            ]
+        },
+        {
+            "id": 7,
+            "question": "What happens if multiple threads try to access a shared resource without proper synchronization?",
+            "answers": [
+                {"id": 1, "answer": "Data corruption or inconsistent states may occur", "correct": true},
+                {"id": 2, "answer": "Threads will automatically queue up without any issues", "correct": false},
+                {"id": 3, "answer": "The system will halt due to a hardware error", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Which scenario is best suited for using semaphores instead of mutexes?",
+            "answers": [
+                {"id": 1, "answer": "Coordinating access between multiple processes", "correct": true},
+                {"id": 2, "answer": "Protecting shared data within a single process", "correct": false},
+                {"id": 3, "answer": "Synchronizing threads across different modules", "correct": false},
+                {"id": 4, "answer": "Ensuring mutual exclusion in a critical section", "correct": false}
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Which of the following statements is false about mutual exclusion in concurrent programming?",
+            "answers": [
+                {"id": 1, "answer": "It ensures that only one process can be in a critical section at any given time", "correct": false},
+                {"id": 2, "answer": "It is designed to prevent conflicts and ensure that only one process can access a shared resource at a time", "correct": false},
+                {"id": 3, "answer": "It uses various algorithms to ensure that processes do not enter the critical section simultaneously", "correct": false},
+                {"id": 4, "answer": "It allows multiple processes to access the critical section simultaneously, improving the system performance", "correct": true}
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Which of the following statements regarding the implementation of mutual exclusion using machine-level instructions compared to disabling interrupts is false?",
+            "answers": [
+                {"id": 1, "answer": "It cannot be applied to multi-programmed operating systems", "correct": false},
+                {"id": 2, "answer": "It can ensure that starvation and deadlocks do not happen", "correct": true},
+                {"id": 3, "answer": "It cannot be applied to computer systems with more than one processor", "correct": false},
+                {"id": 4, "answer": "All statements are false", "correct": false}
+            ]
+        },
+        {
+            "id": 11,
+            "question": "Which of the following mechanisms used to implement mutual exclusion can ensure that processes being executed by the operating system are not subject to deadlocks or starvation?",
+            "answers": [
+                {"id": 1, "answer": "Compare and swap", "correct": false},
+                {"id": 2, "answer": "Exchange instruction", "correct": false},
+                {"id": 3, "answer": "Disable interrupts", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Which of the following statements related to semaphores is true?",
+            "answers": [
+                {"id": 1, "answer": "A binary semaphore initialized to 2, is normally used to synchronize 2 processes", "correct": false},
+                {"id": 2, "answer": "The sem_trywait() signal operation can cause the blocking of the process that executes it depending on the value of the semaphore", "correct": false},
+                {"id": 3, "answer": "The sem_post() operation can cause the transition from blocked to suspended of the executing process", "correct": false},
+                {"id": 4, "answer": "All of the above are false", "correct": true}
+            ]
+        },
+        {
+            "id": 13,
+            "question": "Regarding critical sections, which statement is true?",
+            "answers": [
+                {"id": 1, "answer": "They can be created due to the use of local variables", "correct": false},
+                {"id": 2, "answer": "In the C language, they can be programmed using synchronized blocks", "correct": false},
+                {"id": 3, "answer": "They can be related to a file that processes write to, or to the use of shared variables", "correct": true},
+                {"id": 4, "answer": "They are not related to concurrency", "correct": false}
+            ]
+        },
+        {
+            "id": 14,
+            "question": "Regarding critical sections, which statement is true?",
+            "answers": [
+                {"id": 1, "answer": "They are always related to sending data between processes", "correct": false},
+                {"id": 2, "answer": "They can be related to a file on which the different processes write", "correct": true},
+                {"id": 3, "answer": "In the C language, they are usually programmed using arrays", "correct": false},
+                {"id": 4, "answer": "They are automatically detected by the compiler", "correct": false}
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Regarding critical sections, which statement is true?",
+            "answers": [
+                {"id": 1, "answer": "They are always related to a file that many different processes access to write to it", "correct": false},
+                {"id": 2, "answer": "They can be implemented using semaphores", "correct": true},
+                {"id": 3, "answer": "In C language, they can be programmed using integer variables", "correct": false},
+                {"id": 4, "answer": "They are related to virtual memory", "correct": false}
+            ]
+        },
+        {
+            "id": 16,
+            "question": "Consider you have a thread function signature void* play_game(void* args). How do you properly spawn a new thread to execute this function, passing the game_data structure as the argument? Assume that the variable thread_id of type pthread_t has already been declared.",
+            "answers": [
+                {"id": 1, "answer": "pthread_create(&thread_id, NULL, play_game, &game_data);", "correct": true},
+                {"id": 2, "answer": "start_thread(play_game, game_data);", "correct": false},
+                {"id": 3, "answer": "create_thread(&thread_id, play_game(game_data));", "correct": false},
+                {"id": 4, "answer": "thread_begin(play_game, NULL, &game_data);", "correct": false}
+            ]
+        },
+        {
+            "id": 17,
+            "question": "What is the correct way to create and initialize a mutex in C using POSIX threads?",
+            "answers": [
+                {"id": 1, "answer": "pthread_mutex_init(&mutex, NULL);", "correct": true},
+                {"id": 2, "answer": "pthread_mutex_create(mutex, NULL);", "correct": false},
+                {"id": 3, "answer": "pthread_mutex_new(mutex, NULL);", "correct": false},
+                {"id": 4, "answer": "mutex = PTHREAD_MUTEX_INITIALIZER;", "correct": false}
+            ]
+        },
+        {
+            "id": 18,
+            "question": "Which function is used in POSIX threads to block the calling thread until a specific thread terminates?",
+            "answers": [
+                {"id": 1, "answer": "wait_for_thread()", "correct": false},
+                {"id": 2, "answer": "pthread_wait()", "correct": false},
+                {"id": 3, "answer": "pthread_join()", "correct": true},
+                {"id": 4, "answer": "thread_end_wait()", "correct": false}
+            ]
+        },
+        {
+            "id": 19,
+            "question": "The system call that makes a process wait to be activated by another process with semaphores is:",
+            "answers": [
+                {"id": 1, "answer": "sem_wait()", "correct": true},
+                {"id": 2, "answer": "sem_op()", "correct": false},
+                {"id": 3, "answer": "sem_signal()", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 20,
+            "question": "How do you properly initialize a semaphore named counterSemaphore for interprocess communication with an initial count of 2?",
+            "answers": [
+                {"id": 1, "answer": "sem_init(&counterSemaphore, 1, 2);", "correct": false},
+                {"id": 2, "answer": "sem_init(&counterSemaphore, 0, 2);", "correct": true},
+                {"id": 3, "answer": "sem_init(&counterSemaphore, 0, 1);", "correct": false},
+                {"id": 4, "answer": "sem_init(counterSemaphore, 1, 2);", "correct": false}
+            ]
+        }
+    ],
+    "tema7":[
+        {
+            "id": 1,
+            "question": "Which shell command allows us to list directories and files?",
+            "answers": [
+                {"id": 1, "answer": "ls", "correct": true},
+                {"id": 2, "answer": "ld", "correct": false},
+                {"id": 3, "answer": "ps", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Which command can be used to print the current working directory of a terminal (i.e., absolute path)?",
+            "answers": [
+                {"id": 1, "answer": "pwd", "correct": true},
+                {"id": 2, "answer": "echo $PATH", "correct": false},
+                {"id": 3, "answer": "dir", "correct": false},
+                {"id": 4, "answer": "grep $PATH", "correct": false}
+            ]
+        },
+        {
+            "id": 3,
+            "question": "How do you view the manual page for a specific command, for example, ls?",
+            "answers": [
+                {"id": 1, "answer": "man ls", "correct": true},
+                {"id": 2, "answer": "info ls", "correct": false},
+                {"id": 3, "answer": "help ls", "correct": false},
+                {"id": 4, "answer": "grep ls", "correct": false}
+            ]
+        },
+        {
+            "id": 4,
+            "question": "In a Bash terminal, how do you ensure that the standard output of the first command (i.e., command1) is redirected to the input of the second command (i.e., command2)?",
+            "answers": [
+                {"id": 1, "answer": "command1 < command2", "correct": false},
+                {"id": 2, "answer": "command1 > command2", "correct": false},
+                {"id": 3, "answer": "command1 | command2", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Under which directory of the file system are the files of a user (i.e., esupt) stored?",
+            "answers": [
+                {"id": 1, "answer": "/root/esupt", "correct": false},
+                {"id": 2, "answer": "/home/esupt", "correct": true},
+                {"id": 3, "answer": "/mount/esupt", "correct": false},
+                {"id": 4, "answer": "/media/esupt", "correct": false}
+            ]
+        },
+        {
+            "id": 6,
+            "question": "What is the function of using the srand() function with a specific number, such as srand(1234)?",
+            "answers": [
+                {"id": 1, "answer": "It initializes the start point for generating random numbers with rand() at 1234", "correct": false},
+                {"id": 2, "answer": "It ensures that rand() produces a random sequence starting from the number 1234", "correct": false},
+                {"id": 3, "answer": "It provides a starting seed value to the random number generator for reproducibility of the sequence", "correct": true},
+                {"id": 4, "answer": "It ensures that the last value produced by the rand() command is the number 1234, so only numbers between 0 and 1233 are generated", "correct": false}
+            ]
+        },
+        {
+            "id": 7,
+            "question": "If you want to generate a random number between 0 and 50 using the rand() function and store it in variable y, what operation do you have to perform?",
+            "answers": [
+                {"id": 1, "answer": "y = rand() % 51", "correct": true},
+                {"id": 2, "answer": "y = rand(51)", "correct": false},
+                {"id": 3, "answer": "y = rand() % 50", "correct": false},
+                {"id": 4, "answer": "y = rand(50)", "correct": false}
+            ]
+        },
+        {
+            "id": 8,
+            "question": "You execute a program with the following parameters ‘./activity1 1 2 3’. What statement allows you to store the value of the third parameter (i.e., number 3) into variable x as an integer?",
+            "answers": [
+                {"id": 1, "answer": "x = atoi(argc[2]);", "correct": false},
+                {"id": 2, "answer": "x = atoi(argc[1]);", "correct": false},
+                {"id": 3, "answer": "x = atoi(argv[2]);", "correct": true},
+                {"id": 4, "answer": "x = atoi(argv[1]);", "correct": false}
+            ]
+        },
+        {
+            "id": 9,
+            "question": "What does the SIGINT signal represent in UNIX-like operating systems, commonly triggered by the user when pressing the CTRL+C key combination?",
+            "answers": [
+                {"id": 1, "answer": "A signal to reload configuration files and restart processes", "correct": false},
+                {"id": 2, "answer": "A signal that forcefully terminates a process immediately", "correct": false},
+                {"id": 3, "answer": "A signal that interrupts and requests the termination of a process", "correct": true},
+                {"id": 4, "answer": "A signal indicating a segmentation fault has occurred within a process", "correct": false}
+            ]
+        },
+        {
+            "id": 10,
+            "question": "In C, what is the character used to represent the end of a string stored in memory (i.e., RAM)?",
+            "answers": [
+                {"id": 1, "answer": "\\n", "correct": false},
+                {"id": 2, "answer": "\\r", "correct": false},
+                {"id": 3, "answer": "\\t", "correct": false},
+                {"id": 4, "answer": "\\0", "correct": true}
+            ]
+        },
+        {
+            "id": 11,
+            "question": "What is the return value of the open() system call?",
+            "answers": [
+                {"id": 1, "answer": "0", "correct": false},
+                {"id": 2, "answer": "-1", "correct": false},
+                {"id": 3, "answer": "It depends on how many files are currently open by the process", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 12,
+            "question": "If we run a program with the call './prog par1 par2' and we want to access the first input parameter (par1), we can do so through:",
+            "answers": [
+                {"id": 1, "answer": "argv[1]", "correct": true},
+                {"id": 2, "answer": "argv[3]", "correct": false},
+                {"id": 3, "answer": "argc[1]", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 13,
+            "question": "If we execute a program with the call './prog par1 par2' and want to access the second input parameter (par2), we can do so through:",
+            "answers": [
+                {"id": 1, "answer": "argv[2]", "correct": true},
+                {"id": 2, "answer": "argv[3]", "correct": false},
+                {"id": 3, "answer": "argc[2]", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 14,
+            "question": "Which shell command can be used to get information about the processes currently running in the system?",
+            "answers": [
+                {"id": 1, "answer": "process", "correct": false},
+                {"id": 2, "answer": "list", "correct": false},
+                {"id": 3, "answer": "ls", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Which shell command can be used to get information about the enabled ports on servers in the system?",
+            "answers": [
+                {"id": 1, "answer": "ports", "correct": false},
+                {"id": 2, "answer": "netcat", "correct": false},
+                {"id": 3, "answer": "netstat", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 16,
+            "question": "Assuming that string1 is a variable of type char*, what parameter should we pass to the printf call to print the first letter of that string of characters?",
+            "answers": [
+                {"id": 1, "answer": "printf(\"%c\", string1[0])", "correct": true},
+                {"id": 2, "answer": "printf(\"%s\", string1[0])", "correct": false},
+                {"id": 3, "answer": "printf(\"%d\", string1[0])", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 17,
+            "question": "Assuming that string1 is a variable of type char*, what parameter should we pass to the printf call to print that string of characters?",
+            "answers": [
+                {"id": 1, "answer": "printf(\"%c\", string1)", "correct": false},
+                {"id": 2, "answer": "printf(\"%s\", *string1)", "correct": false},
+                {"id": 3, "answer": "printf(\"%d\", string1)", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 18,
+            "question": "Assuming that string1 is a variable of type char*, what parameter must we pass to the printf call in order to print a string of characters?",
+            "answers": [
+                {"id": 1, "answer": "printf(\"%c\", string1)", "correct": false},
+                {"id": 2, "answer": "printf(\"%s\", string1)", "correct": true},
+                {"id": 3, "answer": "printf(\"%d\", string1)", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 19,
+            "question": "Which shell command allows us to list directories and files?",
+            "answers": [
+                {"id": 1, "answer": "ls", "correct": true},
+                {"id": 2, "answer": "ld", "correct": false},
+                {"id": 3, "answer": "ps", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 20,
+            "question": "What is the function in the C standard library that allows you to reserve dynamic memory (i.e., from the heap instead of the stack)?",
+            "answers": [
+                {"id": 1, "answer": "free()", "correct": false},
+                {"id": 2, "answer": "memset()", "correct": false},
+                {"id": 3, "answer": "reserve()", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 21,
+            "question": "If you want to initialize a memory zone with the value 0xF0 for all its positions (all the memory bytes are set to value 0xF0), which function in the C standard library do you need to use?",
+            "answers": [
+                {"id": 1, "answer": "memset()", "correct": true},
+                {"id": 2, "answer": "meminit()", "correct": false},
+                {"id": 3, "answer": "malloc()", "correct": false},
+                {"id": 4, "answer": "Any of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 22,
+            "question": "After allocating dynamic memory in a C program with malloc() as follows: char* my_data = (char*) malloc(100 * sizeof(char)); Which command correctly deallocates this memory?",
+            "answers": [
+                {"id": 1, "answer": "free(&my_data);", "correct": false},
+                {"id": 2, "answer": "free(my_data);", "correct": true},
+                {"id": 3, "answer": "delete(my_data);", "correct": false},
+                {"id": 4, "answer": "remove(my_data);", "correct": false}
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Which of the following element relationships is correct?",
+            "answers": [
+                {"id": 1, "answer": "Sockets - Implementing critical sections", "correct": false},
+                {"id": 2, "answer": "Fork - Sending data over the network", "correct": false},
+                {"id": 3, "answer": "Files - Creating processes", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
+            ]
+        },
+        {
+            "id": 24,
+            "question": "Which of the following element relationships is correct?",
+            "answers": [
+                {"id": 1, "answer": "Semaphores - Sending data over the network", "correct": false},
+                {"id": 2, "answer": "Sockets - Sharing variables", "correct": false},
+                {"id": 3, "answer": "Fork - Creating processes", "correct": true},
+                {"id": 4, "answer": "None of the above", "correct": false}
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Which of the following relationships of elements is correct?",
+            "answers": [
+                {"id": 1, "answer": "Semaphores - Critical sections", "correct": false},
+                {"id": 2, "answer": "Sockets - Sending data over the network", "correct": false},
+                {"id": 3, "answer": "Files - Input and output", "correct": false},
+                {"id": 4, "answer": "All of the above", "correct": true}
+            ]
+        }
+    ]
+}
