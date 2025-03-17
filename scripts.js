@@ -1,19 +1,32 @@
 var tema1 = [];
+var tema1copy = [];
 var tema2 = [];
+var tema2copy = [];
 var tema3 = [];
+var tema3copy = [];
 var tema4 = [];
+var tema4copy = [];
 var tema5 = [];
+var tema5copy = [];
 var tema6 = [];
+var tema6copy = [];
 var tema7 = [];
+var tema7copy = [];
 
 let currentQuestion;
 var selectedTemas = [];
 var firstAnswer = true;
+var res = true;
 
 function nextQuestion() {
     unselect();
     temasSelect();
     firstAnswer = true;
+
+    if(res){
+        resetQuestions();
+        res = false;
+    }
 
     var count = document.getElementById("counterText");
     var c = count.innerHTML.split("/");
@@ -29,31 +42,59 @@ function nextQuestion() {
 
     let k = Math.floor(Math.random() * selectedTemas.length);
     let tema = selectedTemas[k].charAt(selectedTemas[k].length - 1);
-    
+    let qTitle = document.getElementById("questionText");
+
     if(tema === "1") {
-        let n = Math.floor(Math.random() * 40);
-        currentQuestion = tema1[n];
+        if(tema1copy.length === 0) {
+            qTitle.innerHTML = "No questions available for Tema " + tema;
+            return;
+        }
+        let n = Math.floor(Math.random() * tema1copy.length);
+        currentQuestion = tema1copy.splice(n, 1)[0];
     } else if(tema === "2") {
-        let n = Math.floor(Math.random() * 80);
-        currentQuestion = tema2[n];
+        if(tema2copy.length === 0) {
+            qTitle.innerHTML = "No questions available for Tema " + tema;
+            return;
+        }
+        let n = Math.floor(Math.random() * tema2copy.length);
+        currentQuestion = tema2copy.splice(n, 1)[0];
     } else if(tema === "3") {
-        let n = Math.floor(Math.random() * 25);
-        currentQuestion = tema3[n];
+        if(tema3copy.length === 0) {
+            qTitle.innerHTML = "No questions available for Tema " + tema;
+            return;
+        }
+        let n = Math.floor(Math.random() * tema3copy.length);
+        currentQuestion = tema3copy.splice(n, 1)[0];
     } else if(tema === "4") {
-        let n = Math.floor(Math.random() * 25);
-        currentQuestion = tema4[n];
+        if(tema4copy.length === 0) {
+            qTitle.innerHTML = "No questions available for Tema " + tema;
+            return;
+        }
+        let n = Math.floor(Math.random() * tema4copy.length);
+        currentQuestion = tema4copy.splice(n, 1)[0];
     } else if(tema === "5") {
-        let n = Math.floor(Math.random() * 25);
-        currentQuestion = tema5[n];
+        if(tema5copy.length === 0) {
+            qTitle.innerHTML = "No questions available for Tema " + tema;
+            return;
+        }
+        let n = Math.floor(Math.random() * tema5copy.length);
+        currentQuestion = tema5copy.splice(n, 1)[0];
     } else if(tema === "6") {
-        let n = Math.floor(Math.random() * 20);
-        currentQuestion = tema6[n];
+        if(tema6copy.length === 0) {
+            qTitle.innerHTML = "No questions available for Tema " + tema;
+            return;
+        }
+        let n = Math.floor(Math.random() * tema6copy.length);
+        currentQuestion = tema6copy.splice(n, 1)[0];
     } else if(tema === "7") {
-        let n = Math.floor(Math.random() * 25);
-        currentQuestion = tema7[n];
+        if(tema7copy.length === 0) {
+            qTitle.innerHTML = "No questions available for Tema " + tema;
+            return;
+        }
+        let n = Math.floor(Math.random() * tema7copy.length);
+        currentQuestion = tema7copy.splice(n, 1)[0];
     }
 
-    let qTitle = document.getElementById("questionText");
     qTitle.innerHTML = currentQuestion.question;
     for(let i = 1; i < 5; i++) {
         let answer = currentQuestion.answers[i-1].answer; 
@@ -138,4 +179,14 @@ function temasSelect() {
 function resetCounter(){
     var count = document.getElementById("counterText");
     count.innerHTML = "0/0";
+}
+
+function resetQuestions(){
+    tema1copy = tema1.slice();
+    tema2copy = tema2.slice();
+    tema3copy = tema3.slice();
+    tema4copy = tema4.slice();
+    tema5copy = tema5.slice();
+    tema6copy = tema6.slice();
+    tema7copy = tema7.slice();
 }
