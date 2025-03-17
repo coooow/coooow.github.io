@@ -8,10 +8,20 @@ var tema7 = [];
 
 let currentQuestion;
 var selectedTemas = [];
+var firstAnswer = true;
 
 function nextQuestion() {
     unselect();
     temasSelect();
+    firstAnswer = true;
+
+    var count = document.getElementById("counterText");
+    var c = count.innerHTML.split("/");
+    var correct = parseInt(c[0]);
+    var total = parseInt(c[1]);
+    total++;
+    count.innerHTML = correct + "/" + total;
+
     if(selectedTemas.length === 0) {
         alert("Please select a topic!");
         return;
@@ -19,8 +29,6 @@ function nextQuestion() {
 
     let k = Math.floor(Math.random() * selectedTemas.length);
     let tema = selectedTemas[k].charAt(selectedTemas[k].length - 1);
-
-    console.log(tema);
     
     if(tema === "1") {
         let n = Math.floor(Math.random() * 40);
@@ -55,6 +63,7 @@ function nextQuestion() {
 }
 
 $(document).ready(function(){
+    resetCounter();
     fetch("questions.json")
         .then(response => response.json()) // Parse JSON response
         .then(data => {
@@ -88,10 +97,22 @@ function answer() {
         if(currentQuestion.answers[i].answer === selectedAnswer) {
             if(currentQuestion.answers[i].correct) {
                 document.getElementById("correct").style.display = "block";
+                if(firstAnswer){
+                    var count = document.getElementById("counterText");
+                    var c = count.innerHTML.split("/");
+                    var correct = parseInt(c[0]);
+                    var total = parseInt(c[1]);
+                    correct++;
+                    count.innerHTML = correct + "/" + total;
+                }
             } else {
                 document.getElementById("wrong").style.display = "block";
             }
         }
+    }
+
+    if(firstAnswer){
+        firstAnswer = false;
     }
 }
 
@@ -112,4 +133,9 @@ function temasSelect() {
             selectedTemas.push(document.getElementById("labelTema" + (i+1)).innerHTML);
         }
     }
+}
+
+function resetCounter(){
+    var count = document.getElementById("counterText");
+    count.innerHTML = "0/0";
 }

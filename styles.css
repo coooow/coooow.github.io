@@ -59,4 +59,16 @@ footer{
     margin-top: 400px;
 }
 
+#counter{
+    position: absolute;
+    top: 225px;
+    left: 1200px;
+    font-size: 15px;
+}
+
+#counter h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
 
