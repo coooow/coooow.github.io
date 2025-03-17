@@ -2159,7 +2159,7 @@
         },
         {
             "id": 15,
-            "question": "A file named file.txt in UNIX has the following permissions rw-r–-r–-. Which of the following statements is TRUE?",
+            "question": "A file named file.txt in UNIX has the following permissions rw-r--r--. Which of the following statements is TRUE?",
             "answers": [
                 {"id": 1, "answer": "Users who belong to the same group can execute the file", "correct": false},
                 {"id": 2, "answer": "Only the owner user can write to the file", "correct": true},
@@ -2169,21 +2169,11 @@
         },
         {
             "id": 16,
-            "question": "A file named 'file.txt' on a UNIX system has the following permissions r–-r-xrw-. Which of the following statements is TRUE?",
+            "question": "A file named 'file.txt' on a UNIX system has the following permissions r--r-xrw-. Which of the following statements is TRUE?",
             "answers": [
                 {"id": 1, "answer": "Users who are neither the owner nor the same group cannot write to the file", "correct": false},
                 {"id": 2, "answer": "Only the owner can write to the file", "correct": false},
                 {"id": 3, "answer": "Any user can read the file", "correct": true},
-                {"id": 4, "answer": "None of the above", "correct": false}
-            ]
-        },
-        {
-            "id": 17,
-            "question": "A file named file.txt file in UNIX has the following permissions rw-r–-r–-, which statement is true?",
-            "answers": [
-                {"id": 1, "answer": "Users who belong to the same group can execute the file", "correct": false},
-                {"id": 2, "answer": "Only the owner user can write to the file", "correct": true},
-                {"id": 3, "answer": "Users who are neither the owner nor the same group cannot read the file", "correct": false},
                 {"id": 4, "answer": "None of the above", "correct": false}
             ]
         },
@@ -2213,18 +2203,8 @@
             "answers": [
                 {"id": 1, "answer": "chmod 541 program", "correct": false},
                 {"id": 2, "answer": "chmod 644 program", "correct": false},
-                {"id": 3, "answer": "chmod 751 program", "correct": true},
-                {"id": 4, "answer": "None of the above", "correct": false}
-            ]
-        },
-        {
-            "id": 21,
-            "question": "How does one change permissions of a file named program so that it can be read, write and executed by the owner, but not read and executed by users in the same group and all system users?",
-            "answers": [
-                {"id": 1, "answer": "chmod 541 program", "correct": false},
-                {"id": 2, "answer": "chmod 644 program", "correct": false},
-                {"id": 3, "answer": "chmod 751 program", "correct": true},
-                {"id": 4, "answer": "None of the above", "correct": false}
+                {"id": 3, "answer": "chmod 751 program", "correct": false},
+                {"id": 4, "answer": "None of the above", "correct": true}
             ]
         },
         {
